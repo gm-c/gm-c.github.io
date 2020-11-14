@@ -176,6 +176,7 @@
    #profiles_show .c-history:hover::after,
    #profiles_show .c-info .c-lists-info:hover::after {
       height: 2.3rem;
+      transition: 1s ease-in-out, margin 0s, -webkit-1s ease-in-out;
       z-index: 16;
    }
    #profiles_show .c-column.c-left::after {
