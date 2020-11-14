@@ -130,7 +130,7 @@
       line-height: 2;
       font-size: 13px;
       color: #fff;
-      z-index: auto;
+      z-index: 15;
       transition: 0.4s ease-in-out, margin 0s, -webkit-0.4s ease-in-out;
    }
    #profiles_show .c-column.c-left::before {
@@ -156,6 +156,7 @@
    #profiles_show .c-history:hover:before,
    #profiles_show .c-info .c-lists-info:hover:before {
       bottom: -1.7rem;
+      z-index: 16;
    }
    #profiles_show .c-column.c-left::after,
    #profiles_show .cc-2 .c-column .cc-2a.m30::after,
@@ -196,7 +197,6 @@
    body#profiles_show .b-catalog_entry {
       background: linear-gradient(transparent 0%, rgba(0, 0, 0, 0.24) 100%);
    }
-
    body#profiles_show .b-catalog_entry:hover {
       box-shadow: -20px 20px 0 -17px rgba(62, 62, 62, 0.85), 20px -20px 0 -17px #383838, 20px 20px 0 -20px rgba(0, 0, 0, 0.8), 0 0 0 2px rgba(0, 0, 0, 0.8);
    }
