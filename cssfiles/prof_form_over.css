@@ -22,7 +22,6 @@
       width: 100%;
       overflow: hidden;
    }
-
    body#profiles_show.x1200 .l-page,
    body#profiles_show .l-page {
       margin: -2.875rem auto 0 auto !important;
@@ -33,7 +32,6 @@
       box-shadow: inset 0px 0px 20px 2px rgba(var(--menu-back), 0.8) !important;
       border-radius: 0px;
    }
-
    #profiles_show .lifetime {
       padding: 0 0.3125rem 0;
       margin-bottom: 1.5625rem;
@@ -66,7 +64,6 @@
       background: rgba(var(--menu-back), 0.8);
       box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.3);
    }
-
    #profiles_show .c-left:hover,
    #profiles_show.x1200 .c-column.c-left:hover,
    #profiles_show .cc-2 .c-column .cc-2a.m30:hover,
@@ -106,11 +103,11 @@
       left: 47.484rem;
       top: -18rem;
       width: calc(80% - 44.2%);
-      max-width: 600px;
+      max-width: 550px;
+      text-align: center;
       background: none !important;
       box-shadow: none !important;
    }
-
    #profiles_show .c-column.c-left::before,
    #profiles_show .cc-2 .c-column .cc-2a.m30::before,
    #profiles_show .c-history::before,
@@ -141,30 +138,25 @@
       content: "Активность";
       border-bottom-left-radius: 0.5rem;
    }
-
    #profiles_show .cc-2 .c-column .cc-2a.m30::before {
       width: 128px;
       content: "Друзья и Клубы";
    }
-
    #profiles_show .c-history::before {
       width: 100px;
       content: "История";
    }
-
    #profiles_show .c-info .c-lists-info::before {
       width: 128px;
       content: "Аниме & Манга";
       border-bottom-right-radius: 7px;
    }
-
    #profiles_show .c-column.c-left:hover::before,
    #profiles_show .cc-2 .c-column .cc-2a.m30:hover:before,
    #profiles_show .c-history:hover:before,
    #profiles_show .c-info .c-lists-info:hover:before {
       bottom: -1.7rem;
    }
-
    #profiles_show .c-column.c-left::after,
    #profiles_show .cc-2 .c-column .cc-2a.m30::after,
    #profiles_show .c-history:after,
@@ -172,7 +164,7 @@
       position: absolute;
       display: block;
       content: "";
-      height: 25rem;
+      height: 26rem;
       background: none;
       top: -2rem;
       z-index: 15;
@@ -201,7 +193,6 @@
       width: 132px;
       left: 1rem;
    }
-
    body#profiles_show .b-catalog_entry {
       background: linear-gradient(transparent 0%, rgba(0, 0, 0, 0.24) 100%);
    }
@@ -215,14 +206,12 @@
       margin-top: 0;
       z-index: 9;
    }
-
    #profiles_show .profile-content .block {
       display: inline-block;
       width: 100%;
       margin: 0;
       z-index: 8;
    }
-
    body#profiles_show .profile-content .cc-2.block {
       margin-bottom: 0;
    }
@@ -291,11 +280,9 @@
    #profiles_show .profile-content .cc-2.block .c-column.c-right .block {
       margin-top: 0px !important;
    }
-
    body#profiles_show .activity .b-nothing_here {
       min-height: 140px;
    }
-
    #profiles_show .profile-content .c-right .cc-2a > .c-column:last-child {
       height: 0px;
    }
@@ -309,7 +296,6 @@
       border-radius: 6px;
       background: transparent !important;
    }
-
    body#profiles_show .b-block_list:after {
       content: "";
       width: 100px;
@@ -319,7 +305,6 @@
       background: transparent !important;
       top: -100px;
    }
-
    #profiles_show .cc-2,
    #profiles_show.x1200 .c-right,
    #profiles_show.x1000 .c-right {
@@ -331,7 +316,6 @@
       right: 200px;
       overflow: visible;
    }
-
    #profiles_show .profile-actions .fav-remove::before,
    #profiles_show .profile-actions .ignore-remove::before {
       color: rgba(var(--hover-color), 0.65) !important;
@@ -366,7 +350,6 @@
       line-height: 48px;
       pointer-events: none;
    }
-
    #profiles_show .profile-head {
       position: relative;
       width: 100%;
@@ -392,7 +375,9 @@
       background-size: cover;
       pointer-events: none;
    }
-
+   #profiles_show .b-stats_bar .stat_names {
+      font-size: 12.5px;
+   }
    #profiles_show .c-info .c-lists-info .b-stats_bar.manga {
       display: block;
       position: relative;
