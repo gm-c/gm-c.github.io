@@ -57,7 +57,7 @@
       z-index: 11;
       top: 0;
       left: 0;
-      transition: 0.8s ease-in-out, margin 0s, -webkit-0.8s ease-in-out;
+      transition: 0.8s ease-in-out, margin 0s, padding 0s, width 0s, transform 0s, height 0s, background 0s, border 0s, border-radius 0s, box-shadow 0s, font-size 0s, left 0s, right 0s, bottom 0s, -webkit-0.8s ease-in-out;
       margin: 0 0 0 0 !important;
       float: none !important;
       border-radius: 16px;
@@ -288,25 +288,6 @@
    }
    #profiles_show .profile-content .c-right .cc-2a > .c-column:last-child {
       height: 0px; max-width: 296px; transition: none;
-   }
-   #profiles_show .cc-2a.m30 .c-column.m0 .cc-friends:after {
-      height: 45px;
-      left: -8px;
-      content: "";
-      position: absolute;
-      width: 125px;
-      top: -55px;
-      border-radius: 6px;
-      background: transparent !important;
-   }
-   body#profiles_show .b-block_list:after {
-      content: "";
-      width: 100px;
-      height: 100px;
-      left: -0px;
-      position: absolute;
-      background: transparent !important;
-      top: -100px;
    }
    #profiles_show .cc-2,
    #profiles_show.x1200 .c-right,
