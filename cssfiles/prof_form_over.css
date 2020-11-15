@@ -2,6 +2,7 @@
    #profiles_show .b-clubs {
       flex-wrap: unset;
       min-height: 70px;
+      transition: margin 0s, padding 0s, width 0s, height 0s;
    }
    #profiles_show .c-history .entry {
       margin-bottom: 0.5rem !important;
@@ -497,6 +498,7 @@
    }
    #profiles_show .b-clubs.one-line .b-club {
       width: 17%;
+      transition: 0.2s ease-out, margin 0s, padding 0s, width 0s, height 0s;
    }
 }
 
