@@ -447,6 +447,7 @@
    .profile-actions .ignore-add::before,
    .profile-actions .ignore-remove::before {
       font-size: 36px !important;
+      transition: 0s ease, transform 0.2s, ease color.2s;
       will-change: transform;
       width: 50px;
    }
@@ -505,6 +506,7 @@
    #profiles_show .profile-head .c-brief .avatar .profile-actions a {
       margin: 0px;
       width: 50px;
+      transition: none;
    }
    #profiles_show .cc-friends .b-user {
       margin: 1% 0.5% 1% 0.5% !important;
