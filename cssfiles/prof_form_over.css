@@ -287,7 +287,7 @@
       min-height: 140px;
    }
    #profiles_show .profile-content .c-right .cc-2a > .c-column:last-child {
-      height: 0px;
+      height: 0px; max-width: 296px; transition: none;
    }
    #profiles_show .cc-2a.m30 .c-column.m0 .cc-friends:after {
       height: 45px;
@@ -458,6 +458,8 @@
    }
    #profiles_show .cc-2a > .c-column {
       width: 100%;
+      max-width: 296px;
+      transition: none;
       z-index: 50;
    }
    #profiles_show .cc-favourites .c-column {
