@@ -742,7 +742,7 @@ background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 
       top: auto!important;
       transition: none!important;
       transform: translateY(-4.2rem);
-      z-index: 2;
+      z-index: auto;
       width: 100%;
       margin: 0px 0;
     }
@@ -1578,6 +1578,7 @@ background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 
     }
     .p-profiles .profile-head .c-history, .p-profiles .profile-head .c-history.x2, .p-profiles .profile-head .c-history.x3, .x1000 > .l-page div .profile-head .c-history.x2, .x1000 > .l-page div .profile-head .c-history.x3 {
       top: auto !important;
+      z-index: auto;
       transition: none!important;  
       transform: translateY(-1.2rem);
     }
