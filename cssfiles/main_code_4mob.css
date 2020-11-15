@@ -739,7 +739,9 @@ background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 
       padding: 0px 5px 0px;
       position: absolute;
       right: 0px !important;
-      top: 0px !important;
+      top: auto!important;
+      transition: none!important;
+      transform: translateY(-4.2rem);
       z-index: 2;
       width: 100%;
       margin: 0px 0;
@@ -1575,7 +1577,9 @@ background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 
       transform: none;
     }
     .p-profiles .profile-head .c-history, .p-profiles .profile-head .c-history.x2, .p-profiles .profile-head .c-history.x3, .x1000 > .l-page div .profile-head .c-history.x2, .x1000 > .l-page div .profile-head .c-history.x3 {
-      top: 0px !important;
+      top: auto !important;
+      transition: none!important;  
+      transform: translateY(-1.2rem);
     }
     body#profiles_show .profile-content {
       margin-top: -320px;
