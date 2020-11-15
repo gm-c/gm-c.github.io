@@ -81,6 +81,7 @@
    #profiles_show .c-left,
    #profiles_show.x1200 .c-column.c-left {
       width: 550px !important;
+      max-width: 550px;
       left: 26rem;
       top: -18rem;
    }
@@ -95,6 +96,7 @@
    #profiles_show.x1000 > .l-page div .c-history.x2,
    #profiles_show.x1000 > .l-page div .c-history.x3 {
       width: 320px;
+      max-width: 320px;
       top: -18rem;
       left: 41.095rem;
    }
