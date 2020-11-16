@@ -2527,13 +2527,14 @@
       width: auto;
       height: auto;
       position: absolute;
-     left: 0;
-    top: auto;
+      left: 0;
+      top: auto;
       display: flex;
       background: none;
       margin: 0;
       bottom: 0;
       padding: 0;
+      opacity: 0;
       visibility: visible;
       transition: 0.2s ease, margin 0s, padding 0s, opacity 0s, font-size 0s, width 0s, height 0s, top 0s, bottom 0s;
    }
@@ -2566,6 +2567,11 @@
       content: "\f187";
       visibility: visible;
    }
+   .c-history .subheadline:hover::before {
+      color: rgba(var(--hover-color), var(--hundred));
+      transition: 0.2s ease, margin 0s, padding 0s, opacity 0s, color 0.2s, font-size 0s, width 0s, height 0s, top 0s, bottom 0s;
+   }
+
    .p-profiles .profile-head .c-history .image-name .title {
       padding-right: 14px;
       padding-top: 3px;
