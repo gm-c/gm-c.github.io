@@ -456,7 +456,7 @@
       vertical-align: middle;
       margin-right: 0%;
       clip-path: none;
-      transition: 0.5s ease;
+      transition: none;
       transform: none;
    }
    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.anime {
@@ -465,7 +465,7 @@
       vertical-align: middle;
       margin-left: 0%;
       clip-path: none;
-      transition: 0.5s ease;
+      transition: none;
       transform: none;
    }
    .p-profiles .profile-head {
