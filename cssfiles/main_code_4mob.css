@@ -1100,8 +1100,8 @@
       margin-right: 0% !important;
    }
    .profile-content > .cc-2 .c-column .cc-2a.m30 {
-      right: 0%;
-      width: 100%;
+      margin-bottom: -1rem !important;
+      transition: none;
    }
    /*.p-profiles-show.x1200 .profile-content .c-left, .p-profiles-show.x1000 .profile-content .c-left {
       width: 100%;
@@ -1114,7 +1114,7 @@
    }
    .c-column.c-left {
       transition: none;
-      margin-top: 28%;
+      margin-top: 21.5%;
       margin-bottom: 13.25rem;
       bottom: -14.45rem;
    }
@@ -1460,9 +1460,9 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      padding-top: 1px;
-      padding-right: 0;
       text-align: center;
+      padding: 0.15rem 0 0 0;
+      transition: margin 0s,padding 0s, width 0s, border 0s, border-radius 0s;
    }
    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a,
    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement {
