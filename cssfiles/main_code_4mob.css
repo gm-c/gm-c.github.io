@@ -2527,12 +2527,14 @@
       width: auto;
       height: auto;
       position: absolute;
-      left: 3.75rem;
-      top: -0.5rem;
+     left: 0;
+    top: auto;
       display: flex;
       background: none;
       margin: 0;
+      bottom: 0;
       padding: 0;
+      visibility: visible;
       transition: 0.2s ease, margin 0s, padding 0s, opacity 0s, font-size 0s, width 0s, height 0s, top 0s, bottom 0s;
    }
    .c-history .subheadline > a:before {
