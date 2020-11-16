@@ -1136,17 +1136,18 @@ background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 
     .profile-actions .mail, .profile-actions .talk, .profile-actions .fav-remove, .profile-actions .ban, .profile-actions .fav-add, .profile-actions .settings, .profile-actions .ignore-add, .profile-actions .ignore-remove {
       display: inline-block;
     }
-    .p-profiles .profile-head .c-info .c-additionals {
-      position: absolute;
-      top: 327px;
-      left: 0;
-      width: 100%;
-      max-height: 62px;
-      margin-left: 0%;
-      margin-bottom: -160px;
-      text-align: center;
-      overflow-y: hidden;
-    }
+.p-profiles .profile-head .c-info .c-additionals {
+    position: absolute;
+    top: auto;
+    left: 0;
+    width: 100%;
+    max-height: 60px;
+    text-align: center;
+    overflow-y: hidden;
+    bottom: -3.9rem;
+    margin: 0;
+    transition: margin 0s, padding 0s, opacity 0s, font-size 0s, width 0s, height 0s, top 0s, bottom 0s;
+      }
     .p-profiles .profile-head .c-info .c-additionals div {
       display: inline-block;
       font-size: 13px;
@@ -1252,12 +1253,13 @@ background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 
         padding: 0;
       
     }
-   .c-history .subheadline, .c-history .subheadline > a[href*="/history"] {
+.c-history .subheadline, .c-history .subheadline > a[href*="/history"] {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 1px;
-       padding-right: 0;
+    padding-right: 0;
+    text-align: center;
 }
     .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement {
       font-size: 0px !important;
@@ -1546,6 +1548,7 @@ background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 
     }
     .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.anime, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.manga {
       background: none !important;
+      transition: 0.5s ease, margin 0s, padding 0s, opacity 0s, font-size 0s, width 0s, height 0s, top 0s, bottom 0s;  
     }
     .p-profiles .profile-head .c-brief header .notice {
       font-size: 12px !important;
@@ -2154,28 +2157,37 @@ background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 
     .p-profiles .profile-head .c-history > * {
     display: inline-flex!important;
     }
-    .c-history .subheadline {
+.c-history .subheadline {
     background: none!important;
     box-shadow: none!important;
     position: relative!important;
-    top: 0!important;
-    left: 0!important;
+    top: 3.25rem!important;
+    left: -4rem!important;
     right: 0!important;
     width: 44px;
     padding: 0;
     height: 44px;
-    margin: 0 0 0 5px !important;
+    margin: 0 0 0 5px!important;
     overflow: visible;
+    transition: none;
 }
-    .c-history .subheadline a {
+.c-history .subheadline a {
     font-size: 0;
     width: auto;
     height: auto;
+    position: absolute;
+    left: 3.75rem;
+    top: -0.5rem;
+    display: flex;
+    background: none;
+    margin: 0;
+    padding: 0;
+    transition: 0.2s ease, margin 0s, padding 0s, opacity 0s, font-size 0s, width 0s, height 0s, top 0s, bottom 0s;
 }
     .c-history .subheadline > a:before {
     display: none;
     }
-    .c-history .subheadline a:after {
+.c-history .subheadline a:after {
     background: rgba(var(--block-color), 0.4) !important;
     content: '\f187';
     font: normal normal normal 14px/1 FontAwesome;
@@ -2184,7 +2196,6 @@ background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     width: 44px;
-    background: transparent;
     height: 44px;
     text-align: center;
     line-height: 60px;
@@ -2193,9 +2204,9 @@ background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 10px;
     bottom: 0px;
     box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.4) !important;
+    margin: 0;
 }
     .p-profiles .profile-head .c-history .image-name .title {
     padding-right: 14px;
