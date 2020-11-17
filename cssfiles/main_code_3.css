@@ -1209,7 +1209,7 @@
   .b-stats_bar a.title, .b-stats_bar .title {
     font-size: 15px;
     margin-bottom: 2px;
-    transition: width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;  
+    transition: width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, min-height 0s;  
   }
   
   .b-forums .forum .topics {
