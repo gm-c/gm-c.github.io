@@ -612,35 +612,35 @@ body.p-achievements.p-profiles .b-ajax:before, body.p-achievements.p-profiles .b
   .b-stats_bar .compatibility span.link-replacement .text.zero:before, .b-stats_bar .compatibility .text.zero:before, .b-stats_bar .compatibility .text.zero:hover:before {
     color:  rgba(var(--dark-color), var(--hundred));
     background: transparent !important;
-    transition: 0.3s ease-out;
+    transition: 0.3s ease-out, margin 0s, padding 0s, opacity 0s, font-size 0s, width 0s, height 0s, top 0s, bottom 0s,line-height 0s, min-height 0s,min-width 0s;
   }
   
   /* низкая */
   .b-stats_bar .compatibility span.link-replacement .text.weak:before, .b-stats_bar .compatibility .text.weak:before, .b-stats_bar .compatibility .text.weak:hover:before {
     color: #c3a87e;
     background: transparent !important;
-    transition: 0.3s ease-out;
+    transition: 0.3s ease-out, margin 0s, padding 0s, opacity 0s, font-size 0s, width 0s, height 0s, top 0s, bottom 0s,line-height 0s, min-height 0s,min-width 0s;
   }
   
   /* средняя */
   .b-stats_bar .compatibility span.link-replacement .text.modarate:before, .b-stats_bar .compatibility .text.moderate:before, .b-stats_bar .compatibility .text.moderate:hover:before {
     color: #c5c23e;
     background: transparent !important;
-    transition: 0.3s ease-out;
+    transition: 0.3s ease-out, margin 0s, padding 0s, opacity 0s, font-size 0s, width 0s, height 0s, top 0s, bottom 0s,line-height 0s, min-height 0s,min-width 0s;
   }
   
   /* высокая */
   .b-stats_bar .compatibility span.link-replacement .text.high:before, .b-stats_bar .compatibility .text.high:before, .b-stats_bar .compatibility .text.high:hover:before {
     color: #96c53e;
     background: transparent !important;
-    transition: 0.3s ease-out;
+    transition: 0.3s ease-out, margin 0s, padding 0s, opacity 0s, font-size 0s, width 0s, height 0s, top 0s, bottom 0s,line-height 0s, min-height 0s,min-width 0s;
   }
   
   /* полная */
   .b-stats_bar .compatibility span.link-replacement .text.full:before, .b-stats_bar .compatibility .text.full:before, .b-stats_bar .compatibility .text.full:hover:before {
     color: #3ec557;
     background: transparent !important;
-    transition: 0.3s ease-out;
+    transition: 0.3s ease-out, margin 0s, padding 0s, opacity 0s, font-size 0s, width 0s, height 0s, top 0s, bottom 0s,line-height 0s, min-height 0s,min-width 0s;
   }
   
   .text.full:hover, .text.moderate:hover, .text.high:hover, .text.weak:hover, .text.zero:hover, .b-stats_bar.manga .compatibility a:hover, .b-stats_bar.anime .compatibility a:hover {
