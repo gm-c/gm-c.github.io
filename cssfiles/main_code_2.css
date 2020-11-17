@@ -1240,20 +1240,22 @@ body.p-achievements.p-profiles .l-footer .links a {
   .b-catalog_entry-tooltip .image {
     border-radius: 4px;
   }
-  
-  .b-catalog_entry .cover .image-decor img {
-    transition: 0.2s ease-out;
-  }
-  
+
+
+/*test*/
+.b-catalog_entry,
+.b-catalog_entry .cover .image-decor,
+.b-catalog_entry .cover .image-decor img,
+.b-catalog_entry .cover .image-cutter,
+.b-catalog_entry .cover .image-cutter img {
+ transition: 0s ease-out, -webkit-0s ease-out, margin 0s, padding 0s, opacity 0s, font-size 0s, color .2s, border 0s, border-radius 0s, background-image 0s, visibility 0s, box-shadow .2s ease-out, transform .2s ease-out, width 0s, height 0s, left 0s, top 0s, bottom 0s, right 0s;
+}
   .b-catalog_entry .cover:hover {
     border-radius: 4px;
     background: none;
     box-shadow: none;
   }
   
-  .b-catalog_entry {
-    transition: 0.2s ease-out;
-  }
   
   .b-catalog_entry:hover {
     transform: scale(1.02);
@@ -1268,9 +1270,6 @@ body.p-achievements.p-profiles .l-footer .links a {
     transform: scale(1);
   }
   
-  .b-catalog_entry .cover .image-decor {
-    transition: 0.2s ease-out;
-  }
   
   .b-catalog_entry .cover .image-decor .image-cutter {
     display: block;
@@ -3305,13 +3304,4 @@ color: #ffcacd;
     max-width: 200px;
     width: 100%;
     justify-content: center;
-}
-
-/*test*/
-.b-catalog_entry,
-.b-catalog_entry .cover .image-decor,
-.b-catalog_entry .cover .image-decor img,
-.b-catalog_entry .cover .image-cutter,
-.b-catalog_entry .cover .image-cutter img {
- transition: 0s ease-out, -webkit-0s ease-out, margin 0s, padding 0s, opacity 0s, font-size 0s, color .2s, border 0s, border-radius 0s, background-image 0s, visibility 0s, box-shadow .2s ease-out, transform .2s ease-out, width 0s, height 0s, left 0s, top 0s, bottom 0s, right 0s;
 }
