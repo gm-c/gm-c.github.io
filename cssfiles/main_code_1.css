@@ -1960,7 +1960,7 @@ body.localized_names-ru .name-ru {
   padding-top: 0px;
   margin-bottom: 0px;
   padding: 0px 3px 0px;
-  transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
+  transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s, background 0s;
   border-top: none;
   text-decoration: none !important;
 }
