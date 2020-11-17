@@ -1253,6 +1253,7 @@
       line-height: 38px;
       font-size: 16px;
       opacity: 0.2;
+      transition: width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
    }
    .b-stats_bar .bar {
       height: 16px;
@@ -1263,6 +1264,7 @@
       overflow: hidden !important;
       height: 38px !important;
       line-height: 38px !important;
+      transition: width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
    }
    .b-stats_bar {
       line-height: 8px;
