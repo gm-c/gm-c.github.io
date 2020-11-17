@@ -1524,7 +1524,7 @@
       left: 30px;
    }
    .b-stats_bar.manga .compatibility .rate {
-      top: 120px;
+      top: -5.91rem !important;
       left: 79px;
    }
    .p-profiles .profile-head .c-brief header.head .misc {
