@@ -3313,5 +3313,5 @@ color: #ffcacd;
 .b-catalog_entry .cover .image-decor img,
 .b-catalog_entry .cover .image-cutter,
 .b-catalog_entry .cover .image-cutter img {
-transition: 0s ease-out, -webkit-0s ease-out, margin 0s, padding 0s, opacity 0s, font-size 0s, color .2s, border 0s, border-radius 0s, background-image 0s, visibility 0s, box-shadow .2s ease-out, transform .2s ease-out, width 0s, height 0s;
+ transition: 0s ease-out, -webkit-0s ease-out, margin 0s, padding 0s, opacity 0s, font-size 0s, color .2s, border 0s, border-radius 0s, background-image 0s, visibility 0s, box-shadow .2s ease-out, transform .2s ease-out, width 0s, height 0s, left 0s, top 0s, bottom 0s, right 0s;
 }
