@@ -571,7 +571,7 @@ body.p-achievements.p-profiles .b-ajax:before, body.p-achievements.p-profiles .b
     line-height: 0;
     margin-top: 0;
     display: block;
-    transition: 0.3s ease-out;
+    transition: 0.3s ease-out, margin 0s, padding 0s, opacity 0s, font-size 0s, width 0s, height 0s, top 0s, bottom 0s,line-height 0s, min-height 0s,min-width 0s;
   }
   
   div.compatibility > a:before, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.weak:before, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.zero:before, .b-breadcrumbs > span:after, .b-stats_bar .compatibility .text.high:before, .b-stats_bar .compatibility .text.moderate:before, .b-stats_bar .compatibility .text.full:before {
@@ -599,12 +599,12 @@ body.p-achievements.p-profiles .b-ajax:before, body.p-achievements.p-profiles .b
   
   .b-stats_bar.manga .compatibility a:before {
     color:  rgba(var(--manga-inprocess), var(--hundred));
-    transition: 0.3s ease-out;
+    transition: 0.3s ease-out, margin 0s, padding 0s, opacity 0s, font-size 0s, width 0s, height 0s, top 0s, bottom 0s,line-height 0s, min-height 0s,min-width 0s;
   }
   
   .b-stats_bar.anime .compatibility a:before {
     color:  rgba(var(--anime-inprocess), var(--hundred));
-    transition: 0.3s ease-out;
+    transition: 0.3s ease-out, margin 0s, padding 0s, opacity 0s, font-size 0s, width 0s, height 0s, top 0s, bottom 0s,line-height 0s, min-height 0s,min-width 0s;
   }
   
   /* Красим совместимость*/
