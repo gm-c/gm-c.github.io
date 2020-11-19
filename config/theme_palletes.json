@@ -128,7 +128,12 @@
       "nick_cover": "#673c1a",
       "popup_color": "#4e3312",
 	  "page_img_url": "9c7MQ88",
+	    
+"scroll_Firefox-dno": #315a38,
+"scroll_Firefox-thumb": #5eb557,
+	    
 	  "style_name": "Bronze Sunset"
+	    
     }
   },
 	"amaranth_universe":{
@@ -359,6 +364,9 @@
       "nick_cover": "#1367a0",
       "popup_color": "#1a3f66",
 	  "page_img_url": "wJmthq4",
+	    "scroll_Firefox-dno": #1b4a79,
+	    "scroll_Firefox-thumb": #498bb5,
+	    
 	  "style_name": "Endless Horizon"
     }
   },
