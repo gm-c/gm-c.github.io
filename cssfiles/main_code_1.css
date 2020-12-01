@@ -2176,6 +2176,7 @@ a:-webkit-any-link {
 }
 
 .b-image img {
+    vertical-align: top;
     transition: 0s ease, transform .3s, opacity 0.25s ease, filter 0.25s ease;
 }
 
