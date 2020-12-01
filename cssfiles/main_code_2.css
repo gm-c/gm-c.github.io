@@ -2466,22 +2466,19 @@ body.p-achievements.p-profiles .l-footer .links a {
   .b-catalog_entry .cover .image-cutter::before {
     content: '';
     display: block;
-    padding-bottom: 155.5%;
+    padding-bottom: 155.5555%;
   }
   
-  .b-catalog_entry .cover .image-cutter img {
+.b-catalog_entry .cover .image-cutter img {
     position: absolute;
     top: 0;
-    right: -100%;
-    left: -100%;
-    width: auto;
-    min-width: 100%;
-    max-width: none;
+    left: 0;
+    width: 100%;
     height: 100%;
-    min-height: 100%;
-    margin: auto;
-    border-radius: 5px;
-  }
+    border-radius: 0.3125rem;
+    object-fit: cover;
+    object-position: center;
+}
   
   .cc-favourites {
     display: flex;
