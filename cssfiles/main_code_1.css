@@ -2176,7 +2176,7 @@ a:-webkit-any-link {
 }
 
 .b-image img {
-    transition: 0s ease, transform .3s, opacity 0.25s ease;
+    transition: 0s ease, transform .3s, opacity 0.25s ease, filter 0.25s ease;
 }
 
 img {
