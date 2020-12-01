@@ -1540,7 +1540,7 @@ body.p-achievements.p-profiles .l-footer .links a {
   
   .b-image img {
     -webkit-filter: brightness(0.9);
-    transition: 0.3s ease !important;
+    transition: 0s ease, transform .3s !important;
     box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2);
   }
   
