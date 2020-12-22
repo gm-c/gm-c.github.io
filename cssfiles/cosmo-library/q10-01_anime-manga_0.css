@@ -1,6 +1,8 @@
 @media screen and (min-width: 180px) {
     #profiles_show .Blok-0 {
         display: block;
+    }
+    #profiles_show .Blok-0 .Razmer-v2-row-1 {
         white-space: nowrap;
         overflow-y: hidden;
     }
@@ -228,9 +230,9 @@
       float: left;
       margin-bottom: .65rem!important;
     }
-    #profiles_show .Blok-0 {
-        white-space: normal;
-        overflow-y: inherit;
+    #profiles_show .Blok-0 .Razmer-v2-row-1 {
+      white-space: normal;
+      overflow-y: inherit;
     }
 }
 @media screen and (min-width: 600px) {
