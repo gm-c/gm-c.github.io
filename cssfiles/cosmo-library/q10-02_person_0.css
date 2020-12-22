@@ -1,13 +1,12 @@
 @media screen and (min-width: 180px) {
       #profiles_show .Blok-1 {
         display: block;
-        padding: 1% 0 0 0;
+        padding: 0;
+    }
+      #profiles_show  .Blok-1 .Razmer-row-1 {
         white-space: nowrap;
-        overflow-y: hidden;
-    }
-      #profiles_show .Person-0 {
-        position: relative; 
-    }
+       overflow-y: hidden;
+  }
     body#profiles_show .Person-0 .b-catalog_entry {
         box-shadow: none!important;
         transition: none!important;
@@ -169,7 +168,7 @@
    #profiles_show .Razmer-row-1 .Person-0 .c-column {
     width: calc(100% / 3);
   }
-  #profiles_show .Blok-1 {
+  #profiles_show  .Blok-1 .Razmer-row-1 {
     white-space: normal;
     overflow-y: inherit;
   }
