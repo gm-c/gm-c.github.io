@@ -18,7 +18,6 @@
         opacity: 0;
         visibility: hidden;
     }
-
       #profiles_show .Person-0 .c-column {
         display: inline-block;
         margin: 0 !important;
@@ -27,18 +26,22 @@
         padding: 0.35rem;
         max-width: none;
         background: none;
-        width: calc(100% / 1);
     }
+      #profiles_show .Razmer-row-1 .Person-0 .c-column {
+       width: calc(100% / 1);
+  }
       #profiles_show .Person-0 .b-catalog_entry .cover .image-decor .image-cutter {
         max-height: 1px !important;
         max-width: 100% !important;
-        padding: 0 0 140% 0;
         margin: 0;
         background-image: none;
         background-size: contain;
         box-shadow: 0px 0px 2px 2px rgb(0 0 0 / 15%);
         background: linear-gradient(transparent 0%, rgba(var(--menu-back), 0.35) 100%);     
         border-radius: 0.5rem;
+    }
+     #profiles_show .Razmer-row-1 .Person-0 .b-catalog_entry .cover .image-decor .image-cutter {
+        padding: 0 0 140% 0;
     }
       #profiles_show .Person-0 .b-catalog_entry .cover .title.two_lined {
         position: absolute;
@@ -196,7 +199,3 @@
     width: calc(100% / 8);
   }
 }
-
-
-
-
