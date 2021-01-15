@@ -2216,7 +2216,7 @@ img {
 .profile-actions .fav-remove::before,
 .profile-actions .ignore-add:before,
 .profile-actions .ignore-remove:before {
-  transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s;
+  transition: 0s ease, -webkit-0s ease, transform 0.2s, ease color.2s;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
   text-rendering: auto;
@@ -2231,6 +2231,7 @@ img {
 }
 .profile-actions .ban:before {
   content: "\f06a";
+  line-height: 38px !important;  
 }
 .profile-actions .fav-add::before {
   content: "\f234";
