@@ -1412,6 +1412,8 @@ position: absolute;
     }
     .p-profiles .profile-head .c-brief .avatar img {
       width: 180px;
+	  height: auto;
+	    
     }
     .p-profiles .profile-head .c-brief .avatar {
       margin-top: -236px !important;
