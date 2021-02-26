@@ -376,6 +376,7 @@
     background-position: center top;
     background-size: cover;
     pointer-events: none;
+    image-rendering: -webkit-optimize-contrast;
   }
   #profiles_show .b-stats_bar .stat_names {
     font-size: 12.5px;
