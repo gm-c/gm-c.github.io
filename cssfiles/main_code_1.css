@@ -1804,6 +1804,7 @@ code.b-code_inline {
 
 .b-shiki_editor footer .about-bb_codes:hover {
   color:  rgba(var(--hover-color), var(--hundred));
+  text-decoration: none;
 }
 
 .b-bb_codes-examples .example .title, .b-bb_codes-examples .result .title {
