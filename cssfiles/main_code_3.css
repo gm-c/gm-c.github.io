@@ -1267,7 +1267,7 @@
   .b-user.avatar img, .b-user.named_avatar img, .b-user.avatar_fixed_margin img, .b-user16 img, .b-club .logo, .b-comment > .inner header img, .p-profiles-edit .account .avatar-edit img, .b-user.detailed .info .image-name .image, .b-message > .inner header img, .b-hot_topics .topic a.with-author img, .b-dialog > .inner header img, .p-topics .l-menu .clubs .entry img, .name-logo .logo {
     border-radius: 50%;
     border: 2px solid rgba(var(--block-color), 0.6);
-    transition: 1s ease;
+    transition: 0s ease, transform 1s ease, border-color 1s ease;
   }
   
   .b-user16 img {
@@ -2917,4 +2917,3 @@ body.p-achievements.p-profiles .b-anime_status_tag.episode, .b-anime_status_tag.
       opacity: 1;
     }
   }
-  
