@@ -237,7 +237,7 @@
 }
 @media screen and (min-width: 400px) {
     #profiles_show .Razmer-v2-row-1 .Animes_Mangas .c-column {
-      width: calc(100% / 2 - 1 * 1.01%)!important;
+      width: calc(100% / 2 - 1 * 1.01%);
       float: left;
       margin-bottom: .65rem!important;
     }
@@ -248,12 +248,12 @@
 }
 @media screen and (min-width: 600px) {
     #profiles_show .Razmer-v2-row-1 .Animes_Mangas .c-column {
-     width: calc(100% / 3 - 1 * 1.01%)!important;
+     width: calc(100% / 3 - 1 * 1.01%);
     }
 }
 
 @media screen and (min-width: 900px) {
     #profiles_show .Razmer-v2-row-1 .Animes_Mangas .c-column {
-     width: calc(100% / 4 - 1 * 1.01%)!important;
+     width: calc(100% / 4 - 1 * 1.01%);
     }
 }
