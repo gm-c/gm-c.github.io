@@ -2696,7 +2696,92 @@ body.p-achievements.p-profiles .b-anime_status_tag.episode, .b-anime_status_tag.
     /* Код EngiNier */
   }
   
-
+/* Код Cosmo */
+@media screen and (min-width: 50px) {
+  .about .b-catalog_entry,
+  .about .b-catalog_entry:last-child {
+    display: inline-block;
+    margin: 0 !important;
+    padding: 0;
+    float: none !important;
+    clear: none !important;
+    vertical-align: top;
+    background: none !important;
+    box-shadow: none !important;
+    pointer-events: none;
+  }
+  .about .b-catalog_entry .cover {
+    margin: 5px 5px 1rem;
+    padding: 5px;
+    border-radius: 0.7rem;
+    pointer-events: all;
+    background: linear-gradient(transparent 0%, rgba(var(--block-color), 0.25))!important;
+    box-shadow: 0 2px 6px 2px #00000030;
+    -webkit-transition: box-shadow 0.25s ease;
+  }
+  .about .b-catalog_entry .cover:hover {
+    border-radius: 0.6rem;
+    background: linear-gradient(transparent 0%, rgba(var(--block-color), 0.35))!important;  
+  }
+  .about .cc-9-g0 > .c-column .cover,
+  .about .cc-8-g0 > .c-column .cover,
+  .about .cc-7-g0 > .c-column .cover,
+  .about .cc-6-g0 > .c-column .cover,
+  .about .cc-5-g0 > .c-column .cover {
+    background: none !important;
+    box-shadow: none !important;
+    padding: 0;
+  }
+}
+@media screen and (min-width: 150px) {
+  .about .b-catalog_entry,
+  .about .b-catalog_entry:last-child {
+    width: calc(100% / 1) !important;
+  }
+}
+@media screen and (min-width: 250px) {
+  .about .b-catalog_entry,
+  .about .b-catalog_entry:last-child {
+    width: calc(100% / 2) !important;
+  }
+}
+@media screen and (min-width: 300px) {
+  .about .b-catalog_entry,
+  .about .b-catalog_entry:last-child {
+    width: calc(100% / 3) !important;
+  }
+}
+@media screen and (min-width: 400px) {
+  .about .b-catalog_entry,
+  .about .b-catalog_entry:last-child {
+    width: calc(100% / 4) !important;
+  }
+}
+@media screen and (min-width: 550px) {
+  .about .b-catalog_entry,
+  .about .b-catalog_entry:last-child {
+    width: calc(100% / 5) !important;
+  }
+}
+@media screen and (min-width: 767px) {
+  .about .b-catalog_entry,
+  .about .b-catalog_entry:last-child {
+    width: calc(100% / 6) !important;
+  }
+}
+@media screen and (min-width: 850px) {
+  .about .b-catalog_entry,
+  .about .b-catalog_entry:last-child {
+    width: calc(100% / 7) !important;
+  }
+}
+@media screen and (min-width: 925px) {
+  .about .b-catalog_entry,
+  .about .b-catalog_entry:last-child {
+    width: calc(100% / 8) !important;
+  }
+}
+/* ----------- */
 
   @keyframes spoile {
     0% {
