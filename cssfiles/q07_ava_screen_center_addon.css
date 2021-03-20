@@ -40,30 +40,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*Over*/
 @media screen and (min-width: 1200px) {
   .about .b-catalog_entry,
@@ -112,7 +88,7 @@
 @media screen and (min-width: 1500px) {
   .about .Razmer-v2-row-1 .Animes_Mangas-1 .b-catalog_entry,
   .about .Razmer-v2-row-1 .Animes_Mangas-1 .b-catalog_entry:last-child {
-    width: calc(100% / 8) !important;
+    width: calc(100% / 7) !important;
   }
 }
 
@@ -153,7 +129,7 @@
 @media screen and (min-width: 1900px) {
   .about .Razmer-v2-row-1 .Animes_Mangas-1 .b-catalog_entry,
   .about .Razmer-v2-row-1 .Animes_Mangas-1 .b-catalog_entry:last-child {
-    width: calc(100% / 8) !important;
+    width: calc(100% / 7) !important;
   }
 }
 /*------*/
