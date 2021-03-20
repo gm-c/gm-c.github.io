@@ -36,26 +36,3 @@
         pointer-events: none;
     } 
 }
-
-/* cosmo-library fix */
-  @media screen and (min-width: 1200px) {
-      #profiles_show .Razmer-v2-row-1 .Animes_Mangas .c-column {
-          width: calc(100% / 4 - 1 * 1.01%)!important;
-      }
-  }
-  @media screen and (min-width: 1480px) {
-      #profiles_show .Razmer-v2-row-1 .Animes_Mangas .c-column {
-          width: calc(100% / 4 - 1 * 1.01%)!important;
-      }
-  }
-
-  @media screen and (min-width: 1500px) {
-    #profiles_show .Razmer-row-1 .Person-0 .c-column {
-      width: calc(100% / 8)!important;
-    }
-  }
-  @media screen and (min-width: 1678px) {
-    #profiles_show .Razmer-row-1 .Person-0 .c-column {
-      width: calc(100% / 8)!important;
-    }
-  }
