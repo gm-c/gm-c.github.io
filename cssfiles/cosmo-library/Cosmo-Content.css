@@ -1,3 +1,15 @@
+/*выключить повторные всплывающие постеры*/
+#profiles_show .tooltip-inner {
+  width: 340px;
+}
+#profiles_show  .b-catalog_entry-tooltip .image,
+#profiles_show  .b-catalog_entry-tooltip > a {
+  display: none;
+}
+#profiles_show  .b-catalog_entry-tooltip .inner.offset {
+  margin-left: 0;
+}
+/*--------*/
 /*1*/
 .about .Blok-0 {
   display: block;
