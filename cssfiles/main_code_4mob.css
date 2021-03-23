@@ -3339,7 +3339,7 @@ div.Ssylki-anime-v-1-standard:hover::before {
 }
 .Ssylki-anime-v-1-standard .Fon-standard {
   position: absolute;
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -3601,7 +3601,7 @@ div.Ssylki-anime-v-1:hover::before {
 }
 .Ssylki-anime-v-1 .Fon {
   position: absolute;
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
   text-align: center;
