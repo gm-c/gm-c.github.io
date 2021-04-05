@@ -89,12 +89,6 @@
   "checked": false,
   "description": "Альтернативный анимированный график активности"
   },
-    {   
-  "url": "D1_animated_activity_graph.sass",
-  "disabled": false,
-  "checked": false,
-  "description": "TEST"
-  },
   {
   "url": "q06_ava_screen_center.sass",
   "disabled": false,
