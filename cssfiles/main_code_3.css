@@ -11,7 +11,7 @@
 {
     position: absolute;
     font-size: 11px;
-    width: 143px;
+    width: 50px;
     line-height: 23px;
     margin-top: 0;
     text-align: center;
@@ -34,6 +34,7 @@
 .name-date a.name[href*="/Cosmo+%E2%98%AD"]:hover:after,
 .subheadline a[title="Cosmo+%E2%98%AD"]:hover:after
 {
+    width: 120px;
     margin-left: 10px;
 opacity: 1;
 }
