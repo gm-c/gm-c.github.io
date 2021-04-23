@@ -1,9 +1,15 @@
 /*2104*/
 .name-date a.name[title="morr"]:hover:after,
 .name-date a.name[href*="/morr"]:hover:after,
-.subheadline a[title="morr"]:hover:after {
+.subheadline a[title="morr"]:hover:after,
+.name-date a.name[title="EngiNier"]:hover:after,
+.name-date a.name[href*="/EngiNier"]:hover:after,
+.subheadline a[title="EngiNier"]:hover:after,
+.name-date a.name[title="morr"]:hover:after,
+.name-date a.name[href*="/morr"]:hover:after,
+.subheadline a[title="morr"]:hover:after
+{
     position: absolute;
-    content: "Big Boss";
     font-size: 11px;
     width: 143px;
     line-height: 23px;
@@ -16,12 +22,51 @@
     box-shadow: 0px 0px 20px rgba(var(--shadows-color), 0.3);
     z-index: 1;
 }
-
-.subheadline a[title="morr"]:hover:after {
+.subheadline a[title="morr"]:hover:after, .subheadline a[title="morr"]:hover:after {
     line-height: 20px;
     padding-top: 2px;
     margin-top: -2px;
 }
+
+.name-date a.name[title="morr"]:hover:after,
+.name-date a.name[href*="/morr"]:hover:after,
+.subheadline a[title="morr"]:hover:after {
+    content: "Big Boss";
+}
+
+img[alt='morr'] {
+    border: 2px solid #ffad007a !important;
+  }
+  .name-date a.name[title="morr"], a.name[href*="/morr"] {
+    color: #fdc47a !important;
+    font-size: 19px !important;
+    line-height: 15px !important;
+  }
+  .subheadline a[title="morr"] {
+    color: #fdc47a !important;
+  }
+  
+  .b-topic > .inner header img[alt="morr"] {
+        border: 2px solid rgba(183, 139, 82, 0.9)!important;
+    
+  }
+  
+  .b-user16 a[title="morr"] {
+    color: #fdc47a !important;
+    font-weight: bold;
+  }
+
+
+.name-date a.name[title="EngiNier"]:hover:after,
+.name-date a.name[href*="/EngiNier"]:hover:after,
+.subheadline a[title="EngiNier"]:hover:after {
+    content:"Edesign Admin";
+}
+img[alt='EngiNier'] {
+    border: 2px solid #ffc8007a !important;
+  }
+  
+
 
 body#profiles_edit .b-to-top .slide:before {
     width: 0px;
