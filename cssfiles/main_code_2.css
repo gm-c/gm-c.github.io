@@ -2233,29 +2233,7 @@ body#profiles_show .b-to-top .slide:before {
     justify-content: center;
 }
   
-  img[alt='morr'] {
-    border: 2px solid #ffad007a !important;
-  }
   
-  .name-date a.name[title="morr"], a.name[href*="/morr"] {
-    color: #fdc47a !important;
-    font-size: 19px !important;
-    line-height: 15px !important;
-  }
-  
-  .subheadline a[title=morr] {
-    color: #fdc47a !important;
-  }
-  
-  .b-topic > .inner header img[alt="morr"] {
-        border: 2px solid rgba(183, 139, 82, 0.9)!important;
-    
-  }
-  
-  .b-user16 a[title="morr"] {
-    color: #fdc47a !important;
-    font-weight: bold;
-  }
   
   .p-profiles-show .lifetime .title .value {
     border: none;
