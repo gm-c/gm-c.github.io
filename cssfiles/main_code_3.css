@@ -1,26 +1,41 @@
 /*2104*/
+.name-date a.name[title="morr"]::after,
+.name-date a.name[href*="/morr"]::after,
+.subheadline a[title="morr"]::after,
+.name-date a.name[title="EngiNier"]::after,
+.name-date a.name[href*="/EngiNier"]::after,
+.subheadline a[title="EngiNier"]::after,
+.name-date a.name[title="Cosmo+%E2%98%AD"]:after,
+.name-date a.name[href*="/Cosmo+%E2%98%AD"]:after,
+.subheadline a[title="Cosmo+%E2%98%AD"]:after
+{
+    position: absolute;
+    font-size: 11px;
+    width: 143px;
+    line-height: 23px;
+    margin-top: 0;
+    text-align: center;
+    margin-left: 0px;
+    color: rgba(var(--white-color), 1);
+    background: rgba(var(--time-empty), 1) !important;
+    border-radius: 9px;
+    box-shadow: 0px 0px 20px rgba(var(--shadows-color), 0.3);
+    z-index: 1;
+    opaity:0;
+    transition: 0.2s;
+}
 .name-date a.name[title="morr"]:hover:after,
 .name-date a.name[href*="/morr"]:hover:after,
 .subheadline a[title="morr"]:hover:after,
 .name-date a.name[title="EngiNier"]:hover:after,
 .name-date a.name[href*="/EngiNier"]:hover:after,
 .subheadline a[title="EngiNier"]:hover:after,
-.name-date a.name[title="morr"]:hover:after,
-.name-date a.name[href*="/morr"]:hover:after,
-.subheadline a[title="morr"]:hover:after
+.name-date a.name[title="Cosmo+%E2%98%AD"]:hover:after,
+.name-date a.name[href*="/Cosmo+%E2%98%AD"]:hover:after,
+.subheadline a[title="Cosmo+%E2%98%AD"]:hover:after
 {
-    position: absolute;
-    font-size: 11px;
-    width: 143px;
-    line-height: 23px;
-    margin-top: -2px;
-    text-align: center;
     margin-left: 10px;
-    color: rgba(var(--white-color), 1);
-    background: rgba(var(--time-empty), 1) !important;
-    border-radius: 9px;
-    box-shadow: 0px 0px 20px rgba(var(--shadows-color), 0.3);
-    z-index: 1;
+opacity: 1;
 }
 .subheadline a[title="morr"]:hover:after, .subheadline a[title="morr"]:hover:after {
     line-height: 20px;
@@ -50,6 +65,18 @@ img[alt='morr'] {
         border: 2px solid rgba(183, 139, 82, 0.9)!important;
     
   }
+.b-comment > .inner header a[href*="/EngiNier"] img, .b-comment > .inner header a[href*="/Cosmo+%E2%98%AD"] img {
+    border: 2px solid #a7843d;
+}
+.b-comment > .inner header a[href*="/Cosmo+%E2%98%AD"] img {
+    border: 2px solid #3ba2bd;
+}
+.name-date a.name[title="EngiNier"], .b-comment>.inner a.name[href*="/EngiNier"], .subheadline a[title="EngiNier"] {
+    color: #e2e2e2!important;
+}
+.name-date a.name[title="Cosmo+%E2%98%AD"], .b-comment>.inner a.name[href*="/Cosmo+%E2%98%AD"], .subheadline a[title="Cosmo+%E2%98%AD"] {
+    color: #9ee0f1!important;
+}
   
   .b-user16 a[title="morr"] {
     color: #fdc47a !important;
@@ -59,12 +86,14 @@ img[alt='morr'] {
 
 .name-date a.name[title="EngiNier"]:hover:after,
 .name-date a.name[href*="/EngiNier"]:hover:after,
-.subheadline a[title="EngiNier"]:hover:after {
+.subheadline a[title="EngiNier"]:hover:after,
+.name-date a.name[title="Cosmo+%E2%98%AD"]:hover:after,
+.name-date a.name[href*="/Cosmo+%E2%98%AD"]:hover:after,
+.subheadline a[title="Cosmo+%E2%98%AD"]:hover:after
+{
     content:"Edesign Admin";
 }
-img[alt='EngiNier'] {
-    border: 2px solid #ffc8007a !important;
-  }
+
   
 
 
