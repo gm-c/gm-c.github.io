@@ -2775,9 +2775,7 @@ margin-right: 20px;
 .b-options-floated .selected, .headline .misc-links .selected, .midheadline .misc-links .selected, .subheadline .misc-links > a.selected {
     color: rgba(var(--light-color), 1)
 }
-.headline .misc-links>a:after, .midheadline .misc-links>a:after, .subheadline .misc-links>a:after {
-    content: none;
-}
+
 
 
 
@@ -3050,7 +3048,7 @@ body.p-profiles .mass-actions .action a {
     padding: 0 0px 0 13px;
 }
 
-body.p-profiles .mass-actions .action a:after {
+body.p-profiles .mass-actions .action a:after, .headline .misc-links>a:after, .midheadline .misc-links>a:after, .subheadline .misc-links>a:after {
     display: inline-flex!important;
     background: rgba(var(--block-color), 1);
     color: rgba(var(--white-color), 0.7);
@@ -3074,7 +3072,7 @@ body.p-profiles .mass-actions .action a:before {
     position: absolute;
     bottom: 5px;
     right: 2px;
-    font-size: 11px;
+    font-size: 1.3em;
     letter-spacing: -6px;
     background: rgba(var(--block-color), 0.7);
     width: 18px;
@@ -3084,11 +3082,11 @@ body.p-profiles .mass-actions .action a:before {
 }
 body.p-profiles .mass-actions .action a[href*='/read']:after {
      content: '\f2b6';
-    font-size: 15px;
+    font-size: 1.3em;
 }
 body.p-profiles .mass-actions .action a[href*='/dele']:after {
      content: '\f014';
-    font-size: 18px;
+    font-size: 1.365em;
 }
 body.p-profiles .mass-actions .action a:hover:before {
     color: rgba(var(--light-color), 1);
