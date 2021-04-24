@@ -66,11 +66,11 @@ img[alt='morr'] {
         border: 2px solid rgba(183, 139, 82, 0.9)!important;
     
   }
-.b-comment > .inner header a[href*="/EngiNier"] img, .b-comment > .inner header a[href*="/Cosmo+%E2%98%AD"] img {
-    border: 2px solid #a7843d;
+.b-comment > .inner header a[href*="/EngiNier"] img {
+    border: 2px solid #a7843d75;
 }
 .b-comment > .inner header a[href*="/Cosmo+%E2%98%AD"] img {
-    border: 2px solid #3ba2bd;
+    border: 2px solid #3ba2bd75;
 }
 .name-date a.name[title="EngiNier"], .b-comment>.inner a.name[href*="/EngiNier"], .subheadline a[title="EngiNier"] {
     color: #e2e2e2!important;
