@@ -1062,9 +1062,7 @@ input, select, button, textarea {
 
 
 
-.p-dashboards-show .v2 .db-updates {
-    overflow: visible;
-}
+
 .b-dialog > .inner div.body {
   color:  rgba(var(--light-color), var(--hundred));
 }
