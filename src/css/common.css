@@ -1499,8 +1499,7 @@ a.control_next {
     opacity: 1;
 }
 
-label.v-file.md-list.md-control.disabled:nth-child(9),
-span.md-list_content.md-control_group label.md-control:nth-child(3) { /*Bigshot off*/
+label.v-file.md-list.md-control.disabled:nth-child(10), span.md-list_content.md-control_group label.md-control:nth-child(4) { /*Bigshot off*/
     display: none;
 }
 .bodik {
