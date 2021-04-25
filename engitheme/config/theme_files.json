@@ -56,7 +56,7 @@
   {
     "url": "prof_form_bigshot.sass",
     "disabled": true,
-    "checked": true,
+    "checked": false,
     "title": "*BigShot* Формат профиля"
   },
   {
