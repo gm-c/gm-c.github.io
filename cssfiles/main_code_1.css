@@ -358,6 +358,7 @@ textarea {
 }
 
 /* жанр, ссылка на него */
+.tags .b-anime_status_tag,
 .tags .b-tag,
 .line .b-tag,
 .line .tag,
@@ -375,6 +376,7 @@ textarea {
     border-radius: 10px;
 }
 
+.tags .b-anime_status_tag:hover,
 .tags .b-tag:hover,
 .line .b-tag:hover,
 .line .tag:hover,
