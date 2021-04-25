@@ -2607,7 +2607,7 @@ body#tests_reset_styles_cache input[type="submit"] {
 
 .magenta {
   background: rgba(193, 37, 138, 0.4);
-  color: #de9bc6;
+  color: #c7a0b9;
   border: none;
 }
 .gray {
@@ -3258,6 +3258,19 @@ body.p-profiles .mass-actions .action a:hover:AFTER, .headline .misc-links>a:hov
 }
 .b-user_rate-history .score-time .stars-container .background {
     color: rgba(var(--block-color), 0.4);
+}
+
+.fc-headlines .midheadline.red.linkheadline {
+    background: rgba(16, 130, 67, 0.4);
+    color: #90c7ae;
+}
+.fc-headlines .midheadline.green.linkheadline {
+    background: rgba(193, 37, 138, 0.4);
+  color: #c7a0b9;
+}
+.fc-headlines .midheadline.green.linkheadline {
+    background: rgb(35 114 171 / 40%);
+    color: #79bfd4;
 }
 .p-dashboards-show .v2 .fc-user-sections .tag-link {
         line-height: 24px;
