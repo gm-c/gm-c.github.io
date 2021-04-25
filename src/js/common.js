@@ -258,6 +258,9 @@ var vm = new Vue({
         if (this.file_list[i]['url'] == 'prof_form_citrus.sass') {
           this.file_list[i].checked = this.user.selected_layout == 'citrus' ? true : false;
         }
+        if (this.file_list[i]['url'] == 'prof_form_citrus_lite.sass') {
+          this.file_list[i].checked = this.user.selected_layout == 'citruslite' ? true : false;
+        }
         if (this.file_list[i]['url'] == 'prof_form_over.sass') {
           this.file_list[i].checked = this.user.selected_layout == 'over' ? true : false;
         }
