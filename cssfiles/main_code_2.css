@@ -3323,7 +3323,11 @@ color: rgba(var(--white-color), 1);
     border-radius: 50%;
     z-index: 2;
     box-shadow: 0 1px 3px 3px rgb(0 0 0 / 10%);
-    color: rgba(var(--bright-color), 1);
+    color: rgba(var(--white-color), 0.7);
+    transition: 0.2s all;
+}
+.p-dashboards-show .v2 .my-list .label .misc-links a:hover:before {
+    color: rgba(var(--hover-color), 1);
 }
 .p-dashboards-show .v2 .my-list .label .misc-links a[href*="/anime"]:before {
     content: '\f008';
