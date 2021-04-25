@@ -270,6 +270,11 @@
 }
 
 @media screen and (min-width: 1200px) {
+   .toastify {
+    top: 60px!important;
+    border-radius: 1.5em;
+      filter: brightness(0.9);
+   }
    .p-profiles .profile-head .c-history .entry .title {
       text-overflow: clip;
       animation: runningtext 12s ease-in-out infinite;
