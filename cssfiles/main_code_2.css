@@ -3066,9 +3066,8 @@ body.p-profiles .mass-actions .action a:after, .headline .misc-links>a:after, .m
     transition: 0.2s all;
     z-index: 1;
 }
-body.p-profiles .mass-actions .action a:before {
+body.p-profiles .mass-actions .action a:before, .headline .misc-links>a:before, .midheadline .misc-links>a:before, .subheadline .misc-links>a:before {
     font-family: 'FontAwesome';
-    content: '\f00c\f00c';
     position: absolute;
     bottom: 5px;
     right: 2px;
@@ -3080,6 +3079,12 @@ body.p-profiles .mass-actions .action a:before {
     z-index: 2;
     color: rgba(var(--bright-color), 1); 
 }
+body.p-profiles .mass-actions .action a:before {
+    content: '\f00c\f00c';
+}
+.misc-links a[href*="/reviews"]:before {
+    content: '\f005';
+}
 body.p-profiles .mass-actions .action a[href*='/read']:after {
      content: '\f2b6';
     font-size: 1.3em;
@@ -3088,10 +3093,22 @@ body.p-profiles .mass-actions .action a[href*='/dele']:after {
      content: '\f014';
     font-size: 1.365em;
 }
+.misc-links a[href*="/collections"]:after {
+    content: '\f279';
+    font-size: 1.3em;
+}
+.misc-links a[href*="/reviews"]:after {
+    content: '\f27a';
+    font-size: 1.3em;
+}
+.misc-links a[href*="/articles"]:after {
+    content: '\f1ea';
+    font-size: 1.3em;
+}
 body.p-profiles .mass-actions .action a:hover:before {
     color: rgba(var(--light-color), 1);
 }
-body.p-profiles .mass-actions .action a:hover:AFTER {
+body.p-profiles .mass-actions .action a:hover:AFTER, .headline .misc-links>a:hover:after, .midheadline .misc-links>a:hover:after, .subheadline .misc-links>a:hover:after {
     color: rgba(var(--hover-color), 1);
 }
 
