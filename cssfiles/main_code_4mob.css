@@ -376,7 +376,16 @@
    }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
+   .mobile-slider-next:before {
+    background: linear-gradient(to right, rgb(30 30 39 / 0%), rgb(30 30 39 / 75%) 70%, rgb(30 30 39 / 85%))!important;
+    filter: brightness(1.5);
+}
+   .mobile-slider-prev:after, .mobile-slider-next:after {
+    color: #1e1e27!important;
+    text-shadow: 1px 1px 2px rgb(30 30 39)!important;
+    filter: brightness(0.8);
+}
    .p-profiles-favorites .item-edit:after {
       font-size: 0px;
       width: 0;
@@ -1029,12 +1038,12 @@
 @media screen and (max-width: 767px) {
    .l-top_menu-v2 .menu-icon,
    .l-top_menu-v2 .menu-dropdown > span {
-      padding: 0 14px;
+      padding: 0 12px;
    }
    .l-top_menu-v2 .menu-icon:not(.mobile) {
       display: flex;
    }
-   a.menu-icon.forum.desktop, a.menu-icon.contest {
+   .l-top_menu-v2 a.menu-icon.forum.desktop, .l-top_menu-v2 a.menu-icon.contest {
       display: none;
    }
    .l-top_menu-v2 .menu-dropdown > span[data-unread_count]:after {
@@ -2152,6 +2161,9 @@
 }
 
 @media screen and (max-width: 480px) {
+   .p-dashboards-show .v2 .db-updates .inner .db-update {
+      max-height: 87px;
+   }
    .b-catalog_entry-tooltip .trigger {
       left: -20px;
    }
@@ -2490,7 +2502,7 @@
       width: 50px;
    }
 }
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
    .p-profiles .profile-head .c-history {
       display: flex !important;
       flex-wrap: nowrap;
@@ -3817,7 +3829,7 @@ div.Ssylki-Characters:hover .Text-1:after {
   transition: filter 0.3s ease;
   z-index: -1;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .Ssylki-Characters .Text-1 {
     visibility: hidden;
   }
