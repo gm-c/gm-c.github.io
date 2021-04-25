@@ -3033,7 +3033,7 @@ body.p-profiles .subheadline .misc-links > a:before {
     bottom: unset;
 }
 
-body.p-profiles .mass-actions .action a {
+body.p-profiles .mass-actions .action a, body .headline .misc-links a, body .midheadline .misc-links a, body .subheadline .misc-links a {
     font-size: 0;
     position: relative;
     padding: 0 0px 0 13px;
@@ -3047,9 +3047,7 @@ body.p-profiles .mass-actions .action a:after, body.p-profiles .subheadline .mis
     height: 32px;
     width: 33px;
     font-family: 'FontAwesome';
-    padding-right: 1px;
-    padding-bottom: 2px;
-    /* padding: 0; */
+    padding: 0 0px 2px 1px;
     justify-content: center;
     align-items: center;
     position: relative;
