@@ -6,33 +6,19 @@
     padding: 0px 10px 10px;
     vertical-align: middle;
     display: inline-block;
+    transition: 0.5s ease;
+    background: rgba(var(--menu-back), 0.25);
 }
 .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.manga {
     margin-right: 7%;
     width: 33%;
-    vertical-align: middle;
-    clip-path: inset(5px 60% 70px 0px);
-    transform: translate(4%, 70px);
-    transition: 0.5s ease;
-    box-shadow: none;
 }
 .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.anime {
     margin-left: 7%;
     width: 33%;
     margin-right: 20%;
-    vertical-align: middle;
-    clip-path: inset(5px 60% 70px 0px);
-    transition: 0.5s ease;
-    transform: translate(60%, 70px);
-    clip-path: inset(5px 60% 70px 0px);
-    box-shadow: none;
 }
-.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.anime:hover,
-.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.manga:hover {
-    background: rgba(var(--menu-back), 0.25);
-    clip-path: inset(0px 0px 0px 0px);
-    transform: translate(0px, 0px);
-}
+
 .cc-2a > .c-column {
     border-radius: 0%;
     padding: 0px 5px 5px;
@@ -208,10 +194,11 @@ margin-top: 3px;
     position: absolute;
     right: 0;
     width: 100%;
-    bottom: 15px;
+    bottom: 9px;
     padding: 0px;
     font-size: 10px !important;
     margin: 0;
+    top: auto;
     
 }
 .p-profiles .profile-head .c-brief header {
