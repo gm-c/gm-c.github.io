@@ -1,3 +1,4 @@
+@media screen and (mшт-width: 1200px) {
 .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar {
     margin-bottom: 15px;
     background: transparent;
@@ -259,4 +260,6 @@ margin-top: 3px;
     padding: 10px 10px 5px;
     border-radius: 0px;
     transition: 0,3s ease;
+}
+    
 }
