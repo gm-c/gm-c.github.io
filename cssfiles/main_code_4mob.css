@@ -377,7 +377,7 @@
 }
 
 @media screen and (max-width: 1023px) {
-   .mobile-slider-next:before {
+   .mobile-slider-next:before, .mobile-slider-next:before {
     background: linear-gradient(to right, rgb(30 30 39 / 0%), rgb(30 30 39 / 75%) 70%, rgb(30 30 39 / 85%))!important;
     filter: brightness(1.5);
 }
