@@ -1,4 +1,4 @@
-@media screen and (mшт-width: 1200px) {
+@media screen and (min-width: 1200px) {
 .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar {
     margin-bottom: 15px;
     background: transparent;
