@@ -2761,10 +2761,7 @@ display: none;
       float: none;
      margin-bottom: 0px;
     }
-.headline .misc-links a, .midheadline .misc-links a, .subheadline .misc-links a {
-margin-right: 20px;
-    font-size: 0px;
-}
+
 .b-options-floated a, .headline .misc-links a, .midheadline .misc-links a, .subheadline .misc-links a {
     color: rgba(var(--bright-color), 1)
 }
@@ -3034,6 +3031,7 @@ body.p-profiles .subheadline .misc-links > a:before {
 }
 
 body.p-profiles .mass-actions .action a, body .headline .misc-links a, body .midheadline .misc-links a, body .subheadline .misc-links a {
+    margin: 0;
     font-size: 0;
     position: relative;
     padding: 0 0px 0 13px;
