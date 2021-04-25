@@ -3354,4 +3354,8 @@ color: rgba(var(--white-color), 1);
     width: 100%;
     justify-content: center;
 }
-
+.unsaved-content {
+    background: rgb(69 117 69 / 50%);
+    border: 0;
+    border-radius: 14px;
+}
