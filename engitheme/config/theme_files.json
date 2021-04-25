@@ -32,7 +32,7 @@
   {
     "url": "prof_form_shikista.sass",
     "disabled": true,
-    "checked": false,
+    "checked": true,
     "title": "*Shikista* Формат профиля"
   },
   {
@@ -40,6 +40,12 @@
     "disabled": true,
     "checked": false,
     "title": "*Citrus* Формат профиля"
+  },
+  {
+    "url": "prof_form_citrus_lite.sass",
+    "disabled": true,
+    "checked": false,
+    "title": "*Citrus Lite* Формат профиля"
   },
     {
     "url": "prof_form_over.sass",
