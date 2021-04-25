@@ -1,6 +1,6 @@
 /*2104*/
 .l-footer:before {
-    content: 'E-design v.4.35';
+    content: 'E-design v.4.35 ';
     content: 'E-design *Experimental*';
 }
 .b-club .name-logo .name {
@@ -2763,6 +2763,7 @@ display: none;
     }
 .headline .misc-links a, .midheadline .misc-links a, .subheadline .misc-links a {
 margin-right: 20px;
+    font-size: 0px;
 }
 .b-options-floated a, .headline .misc-links a, .midheadline .misc-links a, .subheadline .misc-links a {
     color: rgba(var(--bright-color), 1)
@@ -3049,6 +3050,7 @@ body.p-profiles .mass-actions .action a {
 }
 
 body.p-profiles .mass-actions .action a:after, .headline .misc-links>a:after, .midheadline .misc-links>a:after, .subheadline .misc-links>a:after {
+    content:'';
     display: inline-flex!important;
     background: rgba(var(--block-color), 1);
     color: rgba(var(--white-color), 0.7);
@@ -3067,6 +3069,7 @@ body.p-profiles .mass-actions .action a:after, .headline .misc-links>a:after, .m
     z-index: 1;
 }
 body.p-profiles .mass-actions .action a:before, .headline .misc-links>a:before, .midheadline .misc-links>a:before, .subheadline .misc-links>a:before {
+    content:'';
     font-family: 'FontAwesome';
     position: absolute;
     bottom: 5px;
@@ -3087,23 +3090,23 @@ body.p-profiles .mass-actions .action a:before {
 }
 body.p-profiles .mass-actions .action a[href*='/read']:after {
      content: '\f2b6';
-    font-size: 1.3em;
+    font-size: 15px;
 }
 body.p-profiles .mass-actions .action a[href*='/dele']:after {
      content: '\f014';
-    font-size: 1.365em;
+    font-size: 18px;
 }
 .misc-links a[href*="/collections"]:after {
     content: '\f279';
-    font-size: 1.3em;
+    font-size: 15px;
 }
 .misc-links a[href*="/reviews"]:after {
     content: '\f27a';
-    font-size: 1.3em;
+    font-size: 15px;
 }
 .misc-links a[href*="/articles"]:after {
     content: '\f1ea';
-    font-size: 1.3em;
+    font-size: 15px;
 }
 body.p-profiles .mass-actions .action a:hover:before {
     color: rgba(var(--light-color), 1);
