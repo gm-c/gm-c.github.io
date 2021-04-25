@@ -1,4 +1,6 @@
-.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.anime:hover,
+
+@media screen and (min-width: 1200px) {
+    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.anime:hover,
 .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.manga:hover {
     background: rgba(var(--menu-back), 0);
     box-shadow: none;
@@ -17,4 +19,5 @@
     background: rgba(var(--menu-back), 0.25);
     clip-path: inset(0px 0px 0px 0px);
     transform: translate(0px, 0px);
+}
 }
