@@ -129,6 +129,12 @@
   "url": "q11_cubik-corners.sass",
   "disabled": false,
   "checked": false,
-  "description": "Почти острые уголки на всех элементах."
+  "description": "Почти острые уголки на всех элементах"
+  },
+  {
+  "url": "q12_expandable-lists.sass",
+  "disabled": false,
+  "checked": false,
+  "description": "(*Citrus Lite* ONLY) Раскрывающиеся списки аниме и манги"
   }
 ]
