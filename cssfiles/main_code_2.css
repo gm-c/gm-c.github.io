@@ -3291,15 +3291,50 @@ body.p-profiles .mass-actions .action a:hover:AFTER, .headline .misc-links>a:hov
     
    
 }
-.p-dashboards-show .v2 .my-list .label span {
-color: rgba(var(--white-color), 1);
-}
 .p-dashboards-show .v2 .fc-user-sections .tag-link.ranobe-tag {
    
 color: #97c9e0;
     background: linear-gradient(45deg, rgb(32 63 93 / 80%) 0%, #3d6175bd 50%, rgb(32 64 93 / 80%));
     
 }
+.p-dashboards-show .v2 .my-list .label span {
+color: rgba(var(--white-color), 1);
+}
+.p-dashboards-show .v2 .my-list .label .misc-links {
+    display: inline-flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.p-dashboards-show .v2 .my-list .label .misc-links a {
+    font-size: 0;
+}
+.p-dashboards-show .v2 .my-list .label .misc-links a:before {  
+    content: '\f2b6';
+    font-family: 'FontAwesome';
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 6px;
+    letter-spacing: 0;
+    background: rgba(var(--block-color), 0.7);
+    width: 28px;
+    font-size: 12px;
+    height: 28px;
+    border-radius: 50%;
+    z-index: 2;
+    box-shadow: 0 1px 3px 3px rgb(0 0 0 / 10%);
+    color: rgba(var(--bright-color), 1);
+}
+.p-dashboards-show .v2 .my-list .label .misc-links a[href*="/anime"]:before {
+    content: '\f008';
+}
+.p-dashboards-show .v2 .my-list .label .misc-links a[href*="/manga"]:before {
+    content: '\f02d';
+}
+.p-dashboards-show .v2 .my-list .label .misc-links a[href*="/history"]:before {
+    content: '\f187';
+}
+
 .fc-user-sections .progress {
    
     background: rgba(var(--hover-bottoms-1), 0.8);
