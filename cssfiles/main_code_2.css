@@ -2692,19 +2692,23 @@ body#tests_reset_styles_cache input[type="submit"] {
 }
 
 .subheadline-buttons {
-    margin: 3px 0;
+    margin: 0;
     padding-top: 0px;
     right: 5px;
-    height: 23px;
+    height: 28px;
     z-index: 3;
 }
 .subheadline-buttons a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20px;
+    height: 100%;
     font-size: 9px!important;
     background: #cccccc14!important;
+    transition: 0.2s all;
+}
+.subheadline-buttons a:hover {
+    color: rgba(var(--hover-color), 1);
 }
 .subheadline-buttons a span {
     line-height: 1.4;
