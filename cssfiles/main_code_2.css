@@ -2704,7 +2704,7 @@ body#tests_reset_styles_cache input[type="submit"] {
     align-items: center;
     height: 100%;
     font-size: 9px!important;
-    background: #cccccc14!important;
+    
     transition: 0.2s all;
 }
 .subheadline-buttons a:hover {
