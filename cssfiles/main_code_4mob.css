@@ -4175,7 +4175,7 @@ div.Ssylki-anime:hover .Text-2 {
     display: none !important;
 }
 .k-0-1 .b-catalog_entry,
-.about .b-catalog_entry .cover,
+.k-0-1  .b-catalog_entry .cover,
 .k-0-1 .b-catalog_entry .cover:hover {
     transform: none !important;
     box-shadow: none !important;
