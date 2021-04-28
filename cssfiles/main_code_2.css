@@ -2698,13 +2698,12 @@ body#tests_reset_styles_cache input[type="submit"] {
     height: 28px;
     z-index: 3;
 }
-.subheadline-buttons a {
+.p-dashboards-show .subheadline-buttons a {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
     font-size: 9px!important;
-    
     transition: 0.2s all;
 }
 .subheadline-buttons a:hover {
