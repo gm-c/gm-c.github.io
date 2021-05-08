@@ -2762,6 +2762,13 @@
   margin-left: 0;
 }
 /*--------*/
+
+.Ssylki-anime span,
+.Ssylki-anime-v-1 span,
+.Ssylki-anime-v-1-standard span {
+     display: none;
+}
+/*--------*/
 /*1*/
 .about .Blok-0 {
   display: block;
