@@ -2765,7 +2765,8 @@
 
 .Ssylki-anime span,
 .Ssylki-anime-v-1 span,
-.Ssylki-anime-v-1-standard span {
+.Ssylki-anime-v-1-standard span,
+.Ssylki-Characters span {
      display: none;
 }
 /*--------*/
