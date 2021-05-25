@@ -2769,6 +2769,12 @@
 .Ssylki-Characters span {
      display: none;
 }
+.Ssylki-anime .b-link,
+.Ssylki-anime-v-1 .b-link,
+.Ssylki-anime-v-1-standard .b-link,
+.Ssylki-Characters .b-link {
+  font-size: 0;
+}
 /*--------*/
 /*1*/
 .about .Blok-0 {
