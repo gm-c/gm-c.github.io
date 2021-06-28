@@ -3358,3 +3358,8 @@ color: rgba(var(--white-color), 1);
     border: 0;
     border-radius: 14px;
 }
+/*Боле затемнённый фон. при клики на картинки*/
+.mfp-container {
+    backdrop-filter: blur(4px);
+    background-color: #191717f2;
+}
