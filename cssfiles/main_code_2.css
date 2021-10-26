@@ -2972,6 +2972,7 @@ body#messages_index .block.is-own-profile {
 }
 body#messages_index .block.is-own-profile > * {
     width: 100%;
+    order: 5;
 }
 body#messages_index .block.is-own-profile > .b-options-floated {
     order: 1;
