@@ -2186,7 +2186,7 @@ body#profiles_show .b-to-top .slide:before {
     display: none;
   }
   
-  .b-news_wall-topic .status-line .comments, .b-status-line .section.created_at time:before, .b-status-line .section.additional .collection-size, .b-status-line .section.additional .comments, .b-status-line .section.additional .comments:before, .b-review_votes span, .b-status-line .section.changed_at time:before, .b-topic > .inner > header .about > span, a.b-menu-line.entry.b-link.person-tooltip .time, a.b-menu-line.entry.b-link .time {
+  .b-status-line .section.main .comments:before, .b-news_wall-topic .status-line .comments, .b-status-line .section.created_at time:before, .b-status-line .section.additional .collection-size, .b-status-line .section.additional .comments, .b-status-line .section.additional .comments:before, .b-review_votes span, .b-status-line .section.changed_at time:before, .b-topic > .inner > header .about > span, a.b-menu-line.entry.b-link.person-tooltip .time, a.b-menu-line.entry.b-link .time {
     color:  rgba(var(--dark-color), var(--hundred));
   }
   
@@ -3397,4 +3397,7 @@ color: rgba(var(--white-color), 1);
 .mfp-container {
     backdrop-filter: blur(4px);
     background-color: #191717f2;
+}
+.b-status-line .section.main .comments:before {
+    
 }
