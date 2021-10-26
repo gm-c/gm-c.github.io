@@ -2703,8 +2703,42 @@ body#tests_reset_styles_cache input[type="submit"] {
     justify-content: center;
     align-items: center;
     height: 100%;
+    margin-top:0;
     font-size: 9px!important;
     transition: 0.2s all;
+}
+.p-topics-new .topic-video .form, .p-topics-edit .topic-video .form, .p-topics-create .topic-video .form, .p-topics-update .topic-video .form, .p-articles-new .topic-video .form, .p-articles-edit .topic-video .form, .p-articles-create .topic-video .form, .p-articles-update .topic-video .form {
+    border: none;
+    background: rgba(var(--block-color), 0.4) !important;
+    box-shadow: 0 2px 6px 2px rgb(0 0 0 / 10%) !important;
+}
+.vue-tags-input {
+    background: rgba(var(--block-color), 0.4) !important
+}
+.vue-tags-input .b-input .ti-input {
+    background: rgba(var(--block-color), 0.4) !important
+}
+.vue-tags-input .b-input .ti-new-tag-input-wrapper .ti-new-tag-input {
+    color: rgba(var(--light-color), 1);
+}
+.ti-tags .ti-tag {
+    background-color: rgba(var(--white-color), 0.1);
+    color: rgba(var(--white-color), 1);
+}
+.b-dropzone {
+    background-color: rgba(var(--block-color), 0.7) !important;
+    border: 2px dashed rgba(var(--bright-color), 0.3);
+    transition: 0.2s;
+}
+.b-dropzone:before {
+    color: rgba(var(--bright-color), 1);
+    transition: 0.2s;
+}
+.b-dropzone:hover {
+    border-color: rgba(var(--hover-color), 0.7);
+}
+.b-dropzone:hover:before {
+    color: rgba(var(--hover-color), 1);
 }
 .subheadline-buttons a:hover {
     color: rgba(var(--hover-color), 1);
