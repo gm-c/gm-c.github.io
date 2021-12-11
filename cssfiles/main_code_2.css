@@ -2699,7 +2699,7 @@ body#tests_reset_styles_cache input[type="submit"] {
     z-index: 3;
 }
 #profiles_show .subheadline-buttons {
-    margin-top: auto;
+    margin-top: 3px;
 }
 .p-dashboards-show .subheadline-buttons a {
     display: flex;
