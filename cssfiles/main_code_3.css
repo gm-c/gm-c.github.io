@@ -2150,8 +2150,8 @@ body.p-achievements.p-profiles .b-to-top .slide:before {
 
 body.p-achievements.p-profiles:after {
     background-image: url(https://i.ibb.co/QX6hgbQ/image.png);
+    animation: none; filter: none;
 }
-
 body.p-achievements.p-profiles .l-page {
     background: transparent;
     box-shadow: none !important;
