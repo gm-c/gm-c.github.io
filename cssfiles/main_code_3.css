@@ -2005,8 +2005,7 @@ body.p-achievements.p-profiles.p-profiles .b-badge img {
     -moz-osx-font-smoothing: grayscale;
 }
 
-body.p-achievements.p-profiles .tipsy,
-body.p-achievements.p-profiles .tipsy-s {
+body.p-achievements.p-profiles .tipsy.tipsy-large.tipsy-s { 
     display: none!important;
 }
 
