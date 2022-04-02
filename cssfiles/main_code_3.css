@@ -2005,11 +2005,11 @@ body.p-achievements.p-profiles.p-profiles .b-badge img {
     -moz-osx-font-smoothing: grayscale;
 }
 
-body.p-achievements.p-profiles .tipsy.tipsy-large.tipsy-s,
 body.p-achievements.p-profiles .tipsy,
 body.p-achievements.p-profiles .tipsy-s {
-    display: none !important;
+    display: none!important;
 }
+
 
 body.p-achievements.p-profiles .cc-achievements {
     margin: 16px 0 9px !important;
