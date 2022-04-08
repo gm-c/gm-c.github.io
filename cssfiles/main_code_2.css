@@ -3111,34 +3111,41 @@ body.p-profiles .mass-actions .action a:before, .headline .misc-links>a:before, 
 }
 body.p-profiles .mass-actions .action a:before {
     content: '\f00c\f00c';
+    z-index: 4;
 }
 .misc-links a[href*="/reviews"]:before {
     content: '\f005';
-    
+    z-index: 4;
 }
 body.p-profiles .subheadline .misc-links > a:after {
     content: '\f2b6';
     font-size: 15px;
+    z-index: 4;
 }
 body.p-profiles .mass-actions .action a[href*='/read']:after {
      content: '\f2b6';
     font-size: 15px;
+    z-index: 4;
 }
 body.p-profiles .mass-actions .action a[href*='/dele']:after {
      content: '\f014';
     font-size: 18px;
+    z-index: 4;
 }
 .misc-links a[href*="/collections"]:after {
     content: '\f279';
     font-size: 15px;
+    z-index: 4;
 }
 .misc-links a[href*="/critiques"]:after {
     content: '\f27a';
     font-size: 15px;
+    z-index: 4;
 }
 .misc-links a[href*="/articles"]:after {
     content: '\f1ea';
     font-size: 15px;
+    z-index: 4;
 }
 body.p-profiles .mass-actions .action a:hover:before {
     color: rgba(var(--light-color), 1);
