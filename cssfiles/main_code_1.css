@@ -351,6 +351,9 @@ textarea {
 .b-db_entry-variant-list_item>.info .b-user_rate .b-add_to_list .option {
     max-width: 200px;
 }
+.b-catalog_entry-tooltip .b-add_to_list {
+    min-width: 225px;
+}
 /* надпись красным "Удалить из списка" */
 .b-add_to_list .expanded-options .remove-trigger .text {
     color: #ffa09e;
