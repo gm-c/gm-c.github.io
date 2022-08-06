@@ -154,7 +154,7 @@ body:after {
 .b-mention span {
     color: rgba(var(--bright-color), 1) !important;
     cursor: pointer;
-    transition: 0.3s ease, -webkit-0.8s 0.3s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
+    transition: 0.3s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
         min-height 0s;
 }
 .b-mention:hover s {
@@ -179,11 +179,11 @@ header.head .misc {
 * .c-brief header.head h1 {
     border-bottom: none;
     color: rgba(var(--white-color), 1) !important;
-    font-family: "Comfortaa";
-    text-shadow: 2px -2px 0px rgba(var(--nick-cover), 1), -2px 2px 0px rgba(var(--nick-cover), 1),
-        -2px -2px 0px rgba(var(--nick-cover), 1), 2px 2px 0px rgba(var(--nick-cover), 1),
-        0px -2px 0px rgba(var(--nick-cover), 1), 0px 2px 0px rgba(var(--nick-cover), 1),
-        2px 0px 0px rgba(var(--nick-cover), 1), -2px 0px 0px rgba(var(--nick-cover), 1);
+    font-family: Comfortaa, sans-serif;
+    text-shadow: 2px -2px 0 rgba(var(--nick-cover), 1), -2px 2px 0 rgba(var(--nick-cover), 1),
+        -2px -2px 0 rgba(var(--nick-cover), 1), 2px 2px 0 rgba(var(--nick-cover), 1),
+        0 -2px 0 rgba(var(--nick-cover), 1), 0 2px 0 rgba(var(--nick-cover), 1),
+        2px 0 0 rgba(var(--nick-cover), 1), -2px 0 0 rgba(var(--nick-cover), 1);
     font-size: 34px;
     line-height: 38px;
     pointer-events: none;
@@ -194,7 +194,7 @@ header.head h2,
 header.head h1 {
     border-bottom: none;
     color: rgba(var(--white-color), 1) !important;
-    font-family: "Comfortaa";
+    font-family: "Comfortaa", sans-serif;
     display: block;
 }
 
@@ -211,21 +211,20 @@ header.head h1 {
 }
 
 /* кнопка смотреть онлайн */
-.b-link_button.dark {
-    background-color: rgba(var(--buttoms-color), 0.7);
-    color: rgba(var(--white-color), 1);
-    transition: 0.2s ease, -webkit-0.8s 0.3s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
+.b-link_button {
+    background-color: rgba(var(--buttoms-color), 0.7) !important;
+    color: rgba(var(--white-color), 1) !important;
+    transition: 0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
         min-height 0s;
     box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2);
     border-radius: 14px;
     border: none;
 }
 
-.b-link_button:hover,
-.b-link_button.dark:hover {
-    background-color: rgba(var(--hover-buttoms-2), 1);
+.b-link_button:hover {
+    background-color: rgba(var(--hover-buttoms-2), 1) !important;
     color: white !important;
-    border: none;
+    border: none !important;
 }
 
 .b-link_button {
@@ -376,7 +375,7 @@ textarea {
     margin: 2px !important;
     color: rgba(var(--bright-color), 1) !important;
     background: rgba(var(--bright-color), 0.15) !important;
-    transition: 0.3s ease, -webkit-0.8s 0.3s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
+    transition: 0.3s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
         min-height 0s !important;
     border: none !important;
     border-radius: 10px;
@@ -401,10 +400,10 @@ a.b-anime_status_tag.studio:hover {
 .block.genres .b-spoiler label,
 .b-show_more,
 .b-show_more-more .hide-more {
-    padding: 2px 0px !important;
+    padding: 2px 0 !important;
     color: rgba(var(--bright-color), 1) !important;
     background: rgba(var(--block-color), 0.6) !important;
-    transition: 0.3s ease, -webkit-0.8s 0.3s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
+    transition: 0.3s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
         min-height 0s !important;
     border: none !important;
     border-radius: 10px;
@@ -432,7 +431,7 @@ a.b-anime_status_tag.studio:hover {
     padding: 4px 18px !important;
     color: rgba(var(--bright-color), 1) !important;
     background: rgba(var(--block-color), 0.6) !important;
-    transition: 0.3s ease, -webkit-0.8s 0.3s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
+    transition: 0.3s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
         min-height 0s !important;
     border: none !important;
     border-radius: 10px;
@@ -455,7 +454,7 @@ a.b-anime_status_tag.studio:hover {
 .p-user_rates-index .l-content .b-options-floated span:before,
 .p-user_rates-index .l-content .b-options-floated span:after {
     color: rgba(var(--dark-color), 1);
-    font-size: 0px;
+    font-size: 0;
 }
 
 .p-user_rates-index .l-content .b-options-floated span:hover {
@@ -483,25 +482,25 @@ a.b-anime_status_tag.studio:hover {
 /* Цвета шкал от темного до светлого - сверху вниз */
 .bar.simple .bar.s3 {
     background: rgba(var(--small-rating), 1);
-    transition: 0.2s ease-out, -webkit-0.8s 0.2s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
+    transition: 0.2s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
         min-height 0s;
 }
 
 .bar.simple .bar.s2 {
     background: rgba(var(--average-rating), 1);
-    transition: 0.2s ease-out, -webkit-0.8s 0.2s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
+    transition: 0.2s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
         min-height 0s;
 }
 
 .bar.simple .bar.s1 {
     background: rgba(var(--high-rating), 1);
-    transition: 0.2s ease-out, -webkit-0.8s 0.2s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
+    transition: 0.2s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
         min-height 0s;
 }
 
 .bar.simple .bar.s0 {
     background: rgba(var(--very-high-rating), 1);
-    transition: 0.2s ease-out, -webkit-0.8s 0.2s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
+    transition: 0.2s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
         min-height 0s;
 }
 
@@ -510,11 +509,11 @@ a.b-anime_status_tag.studio:hover {
 }
 
 .bar.horizontal {
-    padding: 0px 3px 0px 0px;
+    padding: 0 3px 0 0;
 }
 
 .activity .bar.simple .bar {
-    border-radius: 8px 8px 0px 0px;
+    border-radius: 8px 8px 0 0;
 }
 
 .bar.simple .bar.s3:hover,
@@ -548,7 +547,7 @@ a:hover .title span {
 .b-topic > .inner header .name-date a.name,
 .b-dialog > .inner header .name-date a.name,
 .b-message > .inner header .name-date a.name {
-    font-size: 15.5px;
+    font-size: 15px;
 }
 .p-dashboards-show .v2 .db-update .name:hover,
 .b-comment > .inner .name-date .name:hover,
@@ -579,8 +578,8 @@ a:hover .title span {
     background: none;
     color: rgba(var(--bright-color), 1);
     border: none !important;
-    margin-top: 0px;
-    transition: 0.1s ease, -webkit-0.8s 0.1s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
+    margin-top: 0;
+    transition: 0.1s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
         min-height 0s !important;
 }
 
@@ -601,7 +600,7 @@ a:hover .title span {
     background: rgba(var(--block-color), 0.6);
     border-radius: 10px;
     padding: 2px 11px;
-    transition: 0.1s ease, -webkit-0.8s 0.1s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
+    transition: 0.1s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
         min-height 0s !important;
 }
 
@@ -623,7 +622,7 @@ a:hover .title span {
     background: rgba(var(--block-color), 0.4);
     color: rgba(var(--dark-color), 1);
     border: none;
-    transition: 0.3s ease, -webkit-0.8s 0.3s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
+    transition: 0.3s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
         min-height 0s;
     border-radius: 14px;
     box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.05) !important;
@@ -696,8 +695,7 @@ a:hover .title span {
 
 .locale-ru .b-offtopic_marker:before {
     background-color: #c05986;
-    border: 1px solid;
-    border-color: #7876bf;
+    border: 1px solid #7876bf;
     color: #f6e5ec;
 }
 
@@ -789,7 +787,7 @@ a:hover .title span {
 
 /* пустые звезды */
 .b-rate .stars.background {
-    color: rgba(var(--block-color), 0.4);
+    color: rgba(var(--white-color), 0.2);
 }
 
 /* список аниме и манги */
@@ -841,7 +839,7 @@ a:hover .title span {
     border-radius: 10px;
     background-color: rgba(var(--block-color), 0.4) !important;
     border: none !important;
-    font-family: "Comfortaa";
+    font-family: "Comfortaa", sans-serif;
     box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.1) !important;
 }
 
@@ -861,7 +859,7 @@ a.start.b-button,
 .b-shiki_editor footer .hide {
     padding: 7px 12px;
     line-height: 1;
-    font-family: "Comfortaa";
+    font-family: "Comfortaa", sans-serif;
     color: rgba(var(--light-color), 1) !important;
     background-color: rgba(var(--block-color), 0.5);
     border-radius: 10px !important;
@@ -968,7 +966,7 @@ input {
     color: rgba(var(--bright-color), 1);
     line-height: normal !important;
     margin: 0 0 0 2px;
-    padding: 0px 7px;
+    padding: 0 7px;
     transition: 0.2s ease-out, -webkit-0.2s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
         min-height 0s;
 }
@@ -989,7 +987,7 @@ input {
     color: rgba(var(--light-color), 1);
     transition: 0.1s ease-out, -webkit-0.1s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
         min-height 0s;
-    font-family: "Comfortaa";
+    font-family: "Comfortaa", sans-serif;
 }
 
 /* сводка по разным спискам  */
@@ -1090,7 +1088,7 @@ tr.user_rate.selectable.editable:after {
     height: 22px;
     padding-top: 2px;
     position: absolute;
-    left: 0px;
+    left: 0;
     top: -2px;
     z-index: -1;
 }
@@ -1179,7 +1177,7 @@ tr.user_rate.selectable.editable:after {
     color: rgba(var(--light-color), 1);
     border: 2px dashed rgba(165, 170, 230, 0.2);
     border-radius: 6px;
-    padding: 0px 6px;
+    padding: 0 6px;
     transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s;
 }
 
@@ -1216,7 +1214,7 @@ select,
 button,
 textarea {
     background-color: rgba(var(--block-color), 0.4);
-    font-family: "Comfortaa";
+    font-family: "Comfortaa", sans-serif;
     border: none !important;
 }
 
@@ -1241,7 +1239,7 @@ textarea {
 
 .b-dialog,
 .p-dashboards-show .cc-news .c-news_topics .b-topic,
-b-user.detailed,
+.b-user.detailed,
 .b-comment,
 .b-db_entry-note,
 .p-topics .l-menu .sticky-topics .topic,
@@ -1253,12 +1251,12 @@ b-user.detailed,
 
 .b-dialog,
 .p-dashboards-show .cc-news .c-news_topics .b-topic,
-b-user.detailed,
+.b-user.detailed,
 .b-comment,
 .b-db_entry-note,
 .p-topics .l-menu .clubs .entry,
 .p-topics .l-menu .sticky-topics .topic {
-    margin: 4px 0px;
+    margin: 4px 0;
     border-top: none;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -1278,12 +1276,11 @@ b-user.detailed,
 .block_m .b-db_entry-note:last-child,
 .b-comments .b-comment:last-child {
     border-bottom: none !important;
-    padding-bottom: 0px;
+    padding-bottom: 0;
 }
 
 .p-dashboards-show .cc-news .c-news_topics .b-topic {
-    margin-bottom: 0px !important;
-    margin: 10px 0px !important;
+    margin: 10px 0 !important;
 }
 
 .b-user.named_avatar .name {
@@ -1562,7 +1559,7 @@ header.head a.edit,
 }
 
 .b-message {
-    margin: 10px 0px;
+    margin: 10px 0;
     border-top: none;
     padding-bottom: 15px;
     border-bottom: 1px solid rgba(var(--light-color), 0.1);
@@ -1570,18 +1567,18 @@ header.head a.edit,
 
 .b-message:last-child {
     border-bottom: none;
-    padding-bottom: 0px;
+    padding-bottom: 0;
 }
 
 .b-catalog-entry-embedded .b-catalog_entry {
-    padding-bottom: 0px !important;
+    padding-bottom: 0 !important;
     background: none;
 }
 
 .b-dialog .b-message {
-    padding-bottom: 0px;
-    margin-bottom: 0px !important;
-    margin-top: 0px;
+    padding-bottom: 0;
+    margin-bottom: 0 !important;
+    margin-top: 0;
 }
 
 .p-user_history-index .history-page .history-interval p .destroy,
@@ -1664,8 +1661,8 @@ header.head a.edit,
 .b-spoiler .content .inner-prgrph {
     border-bottom: 0;
     border-radius: 6px;
-    padding: 0px 6px;
-    text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.2);
+    padding: 0 6px;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
 }
 
 .b-video_player .cc-player_controls .episode-num .video-link a {
@@ -1776,9 +1773,8 @@ header.head .notice {
 }
 
 .b-collection_search .field input {
-    border: 0px solid rgba(172, 177, 180, 0.13);
+    border: 0 solid rgba(var(--block-color), 0.4);
     background-color: rgba(var(--block-color), 0.4) !important;
-    border-color: rgba(var(--block-color), 0.4);
 }
 
 .p-topics header h1 a.reload:hover {
@@ -1831,9 +1827,8 @@ header.head .notice {
 }
 
 header.head a.misc {
-    font-family: "Comfortaa";
+    font-family: "Comfortaa", sans-serif;
     font-size: 12px !important;
-    margin-bottom: 5px;
     background: rgba(var(--block-color), 0.4);
     padding: 5px 50px;
     border-radius: 14px;
@@ -2021,7 +2016,7 @@ body.localized_names-ru .name-ru:hover {
     background: rgba(18, 18, 35, 0.4);
 }
 
-p-userlist_comparer .comparer table a {
+.p-userlist_comparer .comparer table a {
     color: rgba(var(--white-color), 1) !important;
 }
 
@@ -2263,9 +2258,8 @@ body.localized_names-ru .name-ru {
 .p-profiles .profile-head .c-history .entry,
 .p-topics .l-menu .reviews .entry,
 .p-topics .l-menu .clubs .entry {
-    padding-top: 0px;
-    margin-bottom: 0px;
-    padding: 0px 3px 0px;
+    margin-bottom: 0;
+    padding: 0 3px 0;
     transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s,
         background 0s;
     border-top: none;
@@ -2358,7 +2352,6 @@ body.localized_names-ru .name-ru:before {
     position: absolute;
     top: 0;
     right: 10px !important;
-    margin-left: 240px;
     background: linear-gradient(270deg, rgba(var(--dark-color), 1), rgba(var(--dark-color), 0.3));
     width: 8px;
     margin: 10px 1px;
@@ -2449,7 +2442,7 @@ a.name {
     color: rgba(var(--light-color), 1);
     border: 1px solid rgba(var(--menu-back), 1) !important;
     border-radius: 4px !important;
-    padding: 5px 0px 3px 4px !important;
+    padding: 5px 0 3px 4px !important;
     line-height: 14px !important;
     right: 10px;
 }
@@ -2529,7 +2522,7 @@ img {
 .p-profiles .profile-head .c-history .entry .misc.date.unprocessed {
     color: rgba(var(--dark-color), 1) !important;
     text-align: center;
-    text-indent: 0em !important;
+    text-indent: 0 !important;
     animation: none !important;
     width: auto;
 }
@@ -2660,7 +2653,7 @@ img {
     background: rgba(23, 23, 23, 0.6) !important;
     padding: 9px 17px;
     font-size: 11px;
-    box-shadow: 0px 0px 5px rgba(var(--shadows-color), 0.1);
+    box-shadow: 0 0 5px rgba(var(--shadows-color), 0.1);
     transition: 0.1s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s;
     color: rgba(var(--white-color), 1);
     border-radius: 19px;
@@ -2768,7 +2761,7 @@ body#dashboards_show .l-page {
 .p-dashboards .user_list .list-type > .title .link:hover,
 .p-dashboards .user_list .history > .title .link:hover {
     color: rgba(var(--hover-color), 1);
-    box-shadow: 0px 0px 20px rgba(var(--shadows-color), 0.5);
+    box-shadow: 0 0 20px rgba(var(--shadows-color), 0.5);
     background: rgba(var(--shadows-color), 0.25);
 }
 
@@ -2977,9 +2970,9 @@ p {
 }
 .menu-group {
     background: rgba(var(--bright-color), 0.2) !important;
-    margin: 1px 10px 1px 0px;
+    margin: 1px 10px 1px 0;
     border-radius: 9px;
-    padding: 0px !important;
+    padding: 0 !important;
     box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.1);
 }
 .menubar .icon {
