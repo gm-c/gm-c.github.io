@@ -364,15 +364,13 @@ textarea {
 
 /* жанр, ссылка на него */
 .tags > *,
-.line > *,
+.line .b-tag,
 .b-forums .reload,
 .p-animes-show .other-names,
 .p-mangas-show .other-names,
 .p-ranobe-show .other-names {
     padding: 1px 12px !important;
     margin: 2px !important;
-    color: rgba(var(--bright-color), 1) !important;
-    background: rgba(var(--bright-color), 0.15) !important;
     transition: 0.3s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
         min-height 0s !important;
     border: none !important;
