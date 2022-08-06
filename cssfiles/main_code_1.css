@@ -363,10 +363,8 @@ textarea {
 }
 
 /* жанр, ссылка на него */
-.tags .b-anime_status_tag,
-.tags .b-tag,
-.line .b-tag,
-.line .tag,
+.tags > *,
+.line > *,
 .b-forums .reload,
 .p-animes-show .other-names,
 .p-mangas-show .other-names,

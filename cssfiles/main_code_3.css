@@ -61,10 +61,10 @@ img[alt='morr'] {
   .subheadline a[title="morr"] {
     color: #fdc47a !important;
   }
-  
+
   .b-topic > .inner header img[alt="morr"] {
         border: 2px solid rgba(183, 139, 82, 0.9)!important;
-    
+
   }
 .b-comment > .inner header a[href*="/EngiNier"] img {
     border: 2px solid #a7843d75;
@@ -78,7 +78,7 @@ img[alt='morr'] {
 .name-date a.name[title="Cosmo+%E2%98%AD"], .b-comment>.inner a.name[href*="/Cosmo+%E2%98%AD"], .subheadline a[title="Cosmo+%E2%98%AD"] {
     color: #9ee0f1!important;
 }
-  
+
   .b-user16 a[title="morr"] {
     color: #fdc47a !important;
     font-weight: bold;
@@ -95,7 +95,7 @@ img[alt='morr'] {
     content:"Edesign Admin";
 }
 
-  
+
 
 
 body#profiles_edit .b-to-top .slide:before {
@@ -2999,20 +2999,6 @@ span.submenu-triangle.icon-profile {
 .l-top_menu-v2 .menu-dropdown.active .submenu {
     opacity: 1;
     pointer-events: auto;
-}
-
-.b-anime_status_tag.other {
-    padding: 2px 12px 1px !important;
-    margin: 2px !important;
-    color: #d6d6d6 !important;
-    background: linear-gradient(45deg, #feda754d, #fa7e1e4d, #d629764d, #962fbf4d, #4f5bd54d) !important;
-    cursor: default;
-    display: inline-block;
-    font-size: 12px;
-    letter-spacing: unset;
-    border-radius: 10px;
-    border: unset;
-    color: unset;
 }
 
 a.b-anime_status_tag.studio {

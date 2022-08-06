@@ -266,28 +266,23 @@
 
   input[type="submit"], input[type="text"], input[type="email"], input[type="number"],
   .b-shiki_editor footer .unpreview, .b-shiki_editor footer .preview,
-  .b-offtopic_marker::before, .b-summary_marker::before,
-  .b-new_marker::before, .b-anime_status_tag.news::before,
-  .b-anime_status_tag.anons::before, .b-anime_status_tag.ongoing::before,
-  .b-anime_status_tag.released::before, .b-anime_status_tag.review::before,
-  .b-anime_status_tag.ignored::before, .b-anime_status_tag.collection:before {
+  .b-offtopic_marker::before, .b-summary_marker::before {
     border-radius: 2px;
   }
 
-  .b-offtopic_marker::before, .b-summary_marker::before, .b-new_marker::before, .b-anime_status_tag.news::before, .b-anime_status_tag.anons::before, .b-anime_status_tag.ongoing::before, .b-anime_status_tag.released::before, .b-anime_status_tag.review::before, .b-anime_status_tag.episode:before, .b-anime_status_tag.collection:before, .b-abuse_marker::before, .b-broadcast_marker:before, .b-anime_status_tag.offtopic:before, .b-anime_status_tag.news:before, .b-anime_status_tag.broadcast:before, .b-anime_status_tag.ignored::before {
+  [class*="_marker"]::before, [class*="_status_tag"]::before {
     font-size: 12px !important;
-    line-height: 16.5px !important;
+    line-height: 16px !important;
     border: none;
     border-radius: 8px;
-    padding: 0 5px;
-    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2) !important;
+    box-shadow: none;
   }
 
-  .b-offtopic_marker::before, .b-summary_marker::before, .b-abuse_marker::before, .b-broadcast_marker:before {
+  [class*="_marker"]::before {
     padding: 0 5px;
   }
 
-  .b-anime_status_tag.news::before, .b-anime_status_tag.anons::before, .b-anime_status_tag.ongoing::before, .b-anime_status_tag.released::before, .b-anime_status_tag.review::before, .b-anime_status_tag.episode:before, .b-anime_status_tag.collection:before, .b-anime_status_tag.offtopic:before, .b-anime_status_tag.news:before, .b-anime_status_tag.broadcast:before, .b-anime_status_tag.ignored::before {
+  [class*="_status_tag"]::before {
     padding: 2.5px 9px;
   }
 
@@ -296,6 +291,15 @@
     border: none !important;
   }
 
+[class*="_status_tag"]:before, [class*="_marker"]:before {
+  background: #373c3e;
+  color: #e7e7e7;
+}
+
+.b-anime_status_tag.other::before {
+  color: #d6d6d6;
+  background: linear-gradient(45deg, #feda754d, #fa7e1e4d, #d629764d, #962fbf4d, #4f5bd54d);
+}
   /* статус "релиз" */
   .b-anime_status_tag.released:before {
     background-color: #1A421D;
@@ -316,8 +320,12 @@
 
   /* статус "рецензия" */
   .b-anime_status_tag.review:before {
-    color: #f9cfe1;
+    color: #fae5ee;
     background: #6d0b37;
+  }
+
+  .b-anime_status_tag.critique:before {
+
   }
 
   /* статус "рассылка" */
