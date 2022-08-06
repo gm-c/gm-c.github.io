@@ -1290,7 +1290,7 @@ body#profiles_show .b-to-top .slide:before {
     color: #99bba7;
   }
 
-  .b-catalog_entry.completed .cover .title {
+  .b-catalog_entry.completed .cover .title span {
     color: #cce0d1;
   }
 
@@ -1304,7 +1304,7 @@ body#profiles_show .b-to-top .slide:before {
     color: #c7a7a1;
   }
 
-  .b-catalog_entry.dropped .cover .title {
+  .b-catalog_entry.dropped .cover .title span {
     color: #e4d7d7;
   }
 
@@ -1318,7 +1318,7 @@ body#profiles_show .b-to-top .slide:before {
     color: #a79e8e;
   }
 
-  .b-catalog_entry.on_hold .cover .title {
+  .b-catalog_entry.on_hold .cover .title span {
     color: #d4d2cd;
   }
 
@@ -1332,7 +1332,7 @@ body#profiles_show .b-to-top .slide:before {
     color: #91aacc;
   }
 
-  .b-catalog_entry.planned .cover .title {
+  .b-catalog_entry.planned .cover .title span {
     color: #cad8e4;
   }
 
@@ -1346,7 +1346,7 @@ body#profiles_show .b-to-top .slide:before {
     color: #93b5a7;
   }
 
-  .b-catalog_entry.rewatching .cover .title {
+  .b-catalog_entry.rewatching .cover .title span {
     color: #cce0d9;
   }
 
@@ -1360,7 +1360,7 @@ body#profiles_show .b-to-top .slide:before {
     color: #9b99c1;
   }
 
-  .b-catalog_entry.watching .cover .title {
+  .b-catalog_entry.watching .cover .title span {
     color: #d3cce0;
   }
 
@@ -2190,6 +2190,10 @@ body#profiles_show .b-to-top .slide:before {
   .b-status-line > div > span:before, .b-status-line > div > span {
     color: rgba(var(--dark-color), var(--hundred))!important;
   }
+
+.b-critique_votes span, .b-critique_votes:before {
+  color: rgba(var(--dark-color), var(--hundred));
+}
 
   .wcommunity_wrap {
     background: #282b2f !important;
@@ -3481,20 +3485,18 @@ body.p-achievements.p-profiles .b-list_switchers > *:hover:after {
   color: #f1a0a3;
 }
 
-.b-link_button {
-  border-radius: 10px;
-  color: rgba(var(--menu-back), 0.8)!important;
-  background: rgba(var(--white-color), 0.8) !important;
-}
-
 .b-shiki_editor aside.markers label > span {
   padding: 3px 8px;
-  border: 0px;
+  border: none;
   border-radius: 9px!important;
 }
 
 .b-review_opinion_marker input:not(:checked)+span {
   color: rgba(var(--shadows-color)) !important;
+}
+
+.b-collection-topic>.inner .collection-row.is-spoilers .cover .image-cutter {
+  border: none;
 }
 
 
