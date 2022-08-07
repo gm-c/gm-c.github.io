@@ -298,9 +298,11 @@
   justify-content: center;
   box-sizing: border-box;
   margin: 1px!important;
+  color: #e7e7e7!important;
 }
 
 [class*="_status_tag"]:before, [class*="_marker"]:before {
+  content: '';
   display: inline-flex!important;
   align-items: center;
   justify-content: center;
@@ -325,6 +327,10 @@
   height: 100%;
   text-align: center;
   padding: 0;
+}
+
+.line .value [class*="status_tag"] {
+  padding: 2px 9px!important;
 }
 
 .b-anime_status_tag.other::before {
@@ -406,13 +412,12 @@
   }
 
   body[data-locale=ru] .b-offtopic_marker {
-    width: 75px;
+    width: 84px;
     border: none;
   }
 
   body[data-locale=ru] .b-offtopic_marker:before {
     width: 65px;
-    margin-left: -8px;
   }
 
   body[data-locale=ru] .b-offtopic_marker.off:before {
@@ -420,6 +425,11 @@
     border: none;
     color: #7b646d;
   }
+
+.inner aside.markers {
+  top: 5px;
+  position: relative;
+}
 
   body[data-locale=ru] .b-offtopic_marker:before, .b-anime_status_tag.offtopic:before {
     color: #f3dee7;
