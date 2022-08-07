@@ -2908,10 +2908,6 @@ body.p-achievements.p-profiles a.b-db_entry-variant-list_item span.b-link {
     color: rgba(255, 247, 232, 1) !important;
 }
 
-a.b-anime_status_tag.studio {
-    color: rgba(var(--bright-color), 1);
-}
-
 .b-db_entry-variant-list_item > .info .line .key {
     color: unset;
     font-weight: unset;
@@ -2999,14 +2995,6 @@ span.submenu-triangle.icon-profile {
 .l-top_menu-v2 .menu-dropdown.active .submenu {
     opacity: 1;
     pointer-events: auto;
-}
-
-a.b-anime_status_tag.studio {
-    padding: 2px 12px 1px !important;
-    margin: 2px !important;
-    color: #b3aba0;
-    background: rgba(56, 56, 56, 0.6) !important;
-    border-radius: 10px;
 }
 
 .b-anime_status_tag.episode,
