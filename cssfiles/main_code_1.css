@@ -376,6 +376,18 @@ textarea {
     border: none !important;
     border-radius: 10px;
 }
+.tags > [class*="_status_tag"], .tags > * {
+    padding: 0 1px !important;
+}
+
+.tags > .tag-link,
+.line .b-tag,
+.b-forums .reload,
+.p-animes-show .other-names,
+.p-mangas-show .other-names,
+.p-ranobe-show .other-names {
+    padding: 1px 12px !important;
+}
 
 .tags .b-anime_status_tag:hover,
 .tags .b-tag:hover,
@@ -2202,8 +2214,11 @@ code.b-code_inline {
     background: rgba(var(--block-color), 0.8);
     padding: 2px 2px 0 0;
     line-height: 12px;
-    margin-left: 3px;
-    margin-bottom: 3px;
+    margin-left: 0;
+    margin-bottom: 0;
+    bottom: 0;
+    border-radius: 8px 0 0 0!important;
+    right: 0;
 }
 
 .b-bb_codes-examples .result a:hover {

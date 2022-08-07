@@ -296,61 +296,78 @@
   color: #e7e7e7;
 }
 
+
 .b-anime_status_tag.other::before {
   color: #d6d6d6;
   background: linear-gradient(45deg, #feda754d, #fa7e1e4d, #d629764d, #962fbf4d, #4f5bd54d);
 }
-  /* статус "релиз" */
-  .b-anime_status_tag.released:before {
-    background-color: #1A421D;
-    color: #C4E9ED;
-  }
-
-  /* статус"эпизод" */
-  .b-anime_status_tag.episode:before {
-    background: #392589;
-    color: #d5d4ff;
-  }
-
-  /* статус"новость" */
-  .b-anime_status_tag.news:before {
-    background: #984915;
-    color: #f3e5d3;
-  }
-
-  /* статус "рецензия" */
-  .b-anime_status_tag.review:before {
-    color: #fae5ee;
-    background: #6d0b37;
-  }
-
-  .b-anime_status_tag.critique:before {
-
-  }
-
-  /* статус "рассылка" */
-  .b-anime_status_tag.broadcast:before {
-    background-color: #6d0b37;
-    color: #ffe0ee;
-  }
-
-  /* статус "онгоин" */
-  .b-anime_status_tag.ongoing:before {
-    background: #014493;
-    color: #d7e6f8;
-  }
-
-  /* статус "игнор" */
-  .b-anime_status_tag.ignored:before {
-    background: #96120b;
-    color: #fbdede;
-  }
-
-  /* статус "анонс" */
-  .b-anime_status_tag.anons:before {
-    background: #9c3417;
-    color: #fbe5de;
-  }
+/* статус "турнир" */
+.b-anime_status_tag.contest:before {
+  background-color: #1A421D;
+  color: #C4E9ED;
+}
+/* статус "релиз" */
+.b-anime_status_tag.released:before {
+  background-color: #1A421D;
+  color: #C4E9ED;
+}
+/* статус"эпизод" */
+.b-anime_status_tag.episode:before {
+  background: #392589;
+  color: #d5d4ff;
+}
+/* статус"новость" */
+.b-anime_status_tag.news:before {
+  background: #984915;
+  color: #f3e5d3;
+}
+.b-anime_status_tag.contest:before {
+  content: '🏆︎ турнир'!important;
+  background: linear-gradient(45deg, #866c2f, #815500, #74360f);
+}
+.b-anime_status_tag.article:before {
+  background: #39399d;
+}
+/* статус "отзыв" */
+.b-anime_status_tag.review:before {
+  content: '★ отзыв'!important;
+  background: linear-gradient(45deg, #417942, #444444, #883737);
+}
+/* статус "негативный" */
+.b-anime_status_tag.review-negative:before {
+  background: #933131;
+  content: '👎'!important;
+}
+/* статус "негативный" */
+.b-anime_status_tag.review-positive:before {
+  background: #28662e;
+  content: '👍'!important;
+}
+/* статус "рецензия" */
+.b-anime_status_tag.critique:before {
+  color: #fae5ee;
+  background: #7c1946;
+}
+/* статус "рассылка" */
+.b-anime_status_tag.broadcast:before {
+  background-color: #6d0b37;
+  color: #ffe0ee;
+}
+/* статус "онгоин" */
+.b-anime_status_tag.ongoing:before {
+  background: #014493;
+  color: #d7e6f8;
+}
+/* статус "игнор" */
+.b-anime_status_tag.ignored:before {
+  background: #96120b;
+  color: #fbdede;
+}
+/* статус "анонс" */
+.b-anime_status_tag.anons:before {
+  background: #9c3417;
+  color: #fbe5de;
+}
 
   .b-topic > .inner header .name-date {
     overflow: hidden;
