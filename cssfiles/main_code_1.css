@@ -388,7 +388,8 @@ textarea {
 .p-animes-show .other-names,
 .p-mangas-show .other-names,
 .p-ranobe-show .other-names {
-    padding: 1px 12px !important;
+    position: relative;
+    padding: 0 1px;
     margin: 2px !important;
     transition: 0.3s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
     min-height 0s !important;
