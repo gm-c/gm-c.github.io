@@ -518,7 +518,7 @@ body .l-page [class*="new_marker"] {
     width: 0;
 }
 
-body .l-page [class*="new_marker"].active {
+body .l-page [class*="new_marker"].active, .b-message > .inner:hover aside.markers .b-new_marker.off {
     display: inline-flex;
     width: 75px;
 }
