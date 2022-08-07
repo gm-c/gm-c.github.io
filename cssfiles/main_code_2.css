@@ -352,7 +352,7 @@ body .l-page [class*="_status_tag"]:not([data-text]) {
     padding: 2px 9px !important;
 }
 
-body .l-page .b-anime_status_tag.other::before {
+body .l-page .b-anime_status_tag.other::before, body .l-page .b-anime_status_tag.other {
     color: #d6d6d6;
     background: linear-gradient(45deg, #feda754d, #fa7e1e4d, #d629764d, #962fbf4d, #4f5bd54d);
 }
