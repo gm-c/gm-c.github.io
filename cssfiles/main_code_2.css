@@ -3715,6 +3715,10 @@ body.p-achievements.p-profiles .b-list_switchers > *:hover:after {
     color: rgba(var(--shadows-color)) !important;
 }
 
+.navigation-node.navigation-node-neutral.is-empty * {
+    color: rgba(var(--shadows-color)) !important;
+}
+
 .b-collection-topic > .inner .collection-row.is-spoilers .cover .image-cutter {
     border: none;
 }

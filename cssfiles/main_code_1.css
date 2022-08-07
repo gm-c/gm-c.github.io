@@ -2236,7 +2236,6 @@ code.b-code_inline {
 .b-image .marker,
 .b-video .name {
     color: rgba(var(--light-color), 1);
-    background: rgba(var(--block-color), 0.8);
     padding: 2px 2px 0 0;
     line-height: 12px;
     margin-left: 0;
