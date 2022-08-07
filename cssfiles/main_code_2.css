@@ -270,7 +270,7 @@
     border-radius: 2px;
   }
 
-  [class*="_marker"]::before, [class*="_status_tag"]::before {
+body .l-page [class*="_marker"]::before, body .l-page [class*="_status_tag"]::before {
     font-size: 12px !important;
     line-height: 16px !important;
     border: none;
