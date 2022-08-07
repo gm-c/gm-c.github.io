@@ -288,12 +288,8 @@ body .l-page [class*="_status_tag"]:not([data-text]):before, body .l-page [class
     content: none;
 }
 
-body .l-page [class*="_marker"]::before {
-    padding: 0 5px;
-}
-
-body .l-page [class*="_status_tag"]::before {
-    padding: 2.5px 9px;
+body .l-page [class*="_marker"]::before, body .l-page [class*="_status_tag"]::before {
+    padding: 2px 9px;
 }
 
 .b-anime_status_tag {
@@ -386,11 +382,11 @@ body .l-page .b-anime_status_tag.news:before {
 
 body .l-page .b-anime_status_tag.contest:before {
     content: '🏆︎ турнир' !important;
-    background: linear-gradient(45deg, #866c2f, #815500, #74360f);
+    background: linear-gradient(45deg, #632f86, #662a7d, #471fa7);
 }
 
 body .l-page .b-anime_status_tag.article:before {
-    background: #39399d;
+    background: linear-gradient(45deg, #86412f, #7d2a2a, #a7491f);
 }
 
 /* статус "отзыв" */
@@ -519,11 +515,11 @@ body[data-locale=ru] .b-abuse_marker:before {
 
 body .l-page [class*="new_marker"] {
     display: none;
-    width: 0 !important;
+    width: 0;
 }
 
-body .l-page [class*="new_marker"] {
-    display: none;
+body .l-page [class*="new_marker"].active {
+    display: inline-flex;
     width: 75px;
 }
 
@@ -808,6 +804,7 @@ div.compatibility > a:before {
 
 
 .ac_results {
+    border: none;
     background: none;
 }
 
@@ -2889,7 +2886,18 @@ body#tests_reset_styles_cache input[type="submit"] {
 }
 
 .vue-tags-input .ti-input {
-    background: rgba(var(--block-color), 0.4) !important
+    background: rgba(var(--block-color), 0.4) !important;
+    border: 2px solid rgba(var(--dark-color), 0.8) !important;
+}
+
+.ti-input input {
+    color: rgba(var(--light-color), 1) !important;
+}
+
+.ti-autocomplete {
+    background: rgba(var(--block-color)) !important;
+    border: none !important;
+    color: rgba(var(--light-color));
 }
 
 .vue-tags-input .ti-new-tag-input-wrapper .ti-new-tag-input {
