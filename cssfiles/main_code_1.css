@@ -386,8 +386,11 @@ textarea {
 .p-animes-show .other-names,
 .p-mangas-show .other-names,
 .p-ranobe-show .other-names {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     padding: 1px 12px !important;
-    margin: 1px !important;
 }
 
 .tags .b-anime_status_tag:hover,
@@ -402,10 +405,8 @@ a.b-anime_status_tag.studio:hover:before {
     background-color: rgba(var(--hover-buttoms-2), 1) !important;
     color: white !important;
     box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2) !important;
-    margin: 1px !important;
     border: none !important;
 }
-
 .block.genres .b-spoiler label,
 .b-show_more,
 .b-show_more-more .hide-more {

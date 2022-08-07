@@ -308,6 +308,7 @@
   justify-content: center;
   background: #373c3e;
   color: #e7e7e7;
+  transition: 0.1s ease!important;
 }
 
 .line .value .b-tag:before {
@@ -430,6 +431,10 @@
   top: 5px;
   position: relative;
 }
+.b-reviews_navigation aside.markers {
+  top: 13px;
+}
+
 
   body[data-locale=ru] .b-offtopic_marker:before, .b-anime_status_tag.offtopic:before {
     color: #f3dee7;
@@ -470,9 +475,11 @@
     margin-top: 4px;
   }
 
+body[data-locale=ru] .b-new_marker {
+  width: 75px;
+}
   body[data-locale=ru] .b-new_marker:before {
     width: 50px;
-    margin-left: -20px;
     border: none;
     color: #dde6ef;
   }
@@ -3543,6 +3550,9 @@ body.p-achievements.p-profiles .b-list_switchers > *:hover:after {
 }
 .b-review-topic.is-review_review_author_details>.inner .review-info .negative {
   color: #f1a0a3;
+}
+.review-details .review-info {
+  margin-top: 3px;
 }
 
 .b-shiki_editor aside.markers label > span {
