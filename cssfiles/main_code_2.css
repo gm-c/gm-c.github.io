@@ -293,7 +293,7 @@
 
 [class*="_status_tag"], [class*="_marker"] {
   position: relative;
-  display: inline-flex!important;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
