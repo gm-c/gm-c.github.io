@@ -2,7 +2,9 @@
     border-radius: 5px !important;
 }
 
-*:not(.stat_name, img, .qa-link, .qa-panel, .headline, .midheadline, .subheadline, .b-link_button, .first, .second, .third, .fourth), *:not(.stat_name, img, .qa-link, .qa-panel, .headline, .midheadline, .subheadline, .b-link_button, .first, .second, .third, .fourth):before, *:not(.stat_name, img, .qa-link, .qa-panel, .headline, .midheadline, .subheadline, .b-link_button, .first, .second, .third, .fourth):after, input {
+*:not(.stat_name, .b-options-floated a, img, .qa-link, .qa-panel, .headline, .midheadline, .subheadline, .b-link_button, .first, .second, .third, .fourth),
+*:not(.stat_name, .b-options-floated a, img, .qa-link, .qa-panel, .headline, .midheadline, .subheadline, .b-link_button, .first, .second, .third, .fourth):before,
+*:not(.stat_name, .b-options-floated a, img, .qa-link, .qa-panel, .headline, .midheadline, .subheadline, .b-link_button, .first, .second, .third, .fourth):after, input {
     border-radius: 5px !important;
 }
 

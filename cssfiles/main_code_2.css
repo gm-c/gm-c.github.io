@@ -322,10 +322,10 @@ body .l-page [class*="_marker"]:not([data-text]) {
 }
 
 body .l-page [class*="_status_tag"]:not([data-text]) {
-    padding: 2.5px 9px;
+    padding: 2px 9px;
 }
 
-.line .value .b-tag:before {
+.line .value .b-tag:before, .tags .b-tag:before {
     background: rgba(var(--block-color), 1);
     content: '';
     width: 100%;

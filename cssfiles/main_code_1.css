@@ -96,7 +96,6 @@ body:after {
     -o-background-size: cover;
     background-size: cover;
     background-color: rgba(var(--menu-back), 0.5);
-    image-rendering: -webkit-optimize-contrast;
 }
 
 .l-top_menu-v2 {
@@ -384,6 +383,7 @@ textarea {
 /* жанр, ссылка на него */
 .tags > *,
 .line .b-tag,
+.tags .b-tag,
 .b-forums .reload,
 .p-animes-show .other-names,
 .p-mangas-show .other-names,
@@ -397,7 +397,15 @@ textarea {
 }
 
 .tags > [class*="_status_tag"], .tags > * {
-    padding: 0 1px !important;
+    padding: 0 1px;
+}
+
+.tags > [class*="_status_tag"]:not([data-text]), .tags > .b-tag {
+    padding: 2px 9px;
+}
+
+.p-dashboards-show .v2 .db-update .tags {
+    height: auto;
 }
 
 .tags > .tag-link,
