@@ -271,7 +271,6 @@ input[type="submit"], input[type="text"], input[type="email"], input[type="numbe
 }
 
 body .l-page [class*="_marker"]:before, body .l-page [class*="_status_tag"]:before {
-    context: '';
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -360,6 +359,11 @@ body .l-page [class*="_status_tag"]:not([data-text]) {
 body .l-page .b-anime_status_tag.other::before {
     color: #d6d6d6;
     background: linear-gradient(45deg, #feda754d, #fa7e1e4d, #d629764d, #962fbf4d, #4f5bd54d);
+}
+
+/* надпись коллекция на зеленом */
+body .l-page .b-anime_status_tag.collection:before {
+    background: linear-gradient(45deg, #2b684e, #1f5430, #476024) !important;
 }
 
 /* статус "релиз" */
