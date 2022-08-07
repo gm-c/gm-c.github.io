@@ -270,7 +270,7 @@ input[type="submit"], input[type="text"], input[type="email"], input[type="numbe
     border-radius: 2px;
 }
 
-body .l-page [class*="_marker"]::before, body .l-page [class*="_status_tag"]::before {
+body .l-page [class*="_marker"]:before, body .l-page [class*="_status_tag"]:before {
     context: '';
     display: inline-flex;
     align-items: center;
@@ -285,8 +285,8 @@ body .l-page [class*="_marker"]::before, body .l-page [class*="_status_tag"]::be
     box-shadow: none;
 }
 
-body .l-page [class*="_status_tag"]:not([data-text=""]):before, body .l-page [class*="_marker"]:not([data-text=""]):before {
-    context: none;
+body .l-page [class*="_status_tag"]:not([data-text]):before, body .l-page [class*="_marker"]:not([data-text]):before {
+    content: none;
 }
 
 body .l-page [class*="_marker"]::before {
@@ -298,7 +298,6 @@ body .l-page [class*="_status_tag"]::before {
 }
 
 .b-anime_status_tag {
-    background: none !important;
     border: none !important;
 }
 
@@ -310,23 +309,24 @@ body .l-page [class*="_status_tag"], body .l-page [class*="_marker"] {
     box-sizing: border-box;
     margin: 1px !important;
     color: #e7e7e7 !important;
+    background: none;
+    box-shadow: none;
+    border: none;
+    border-radius: 8px;
 }
 
-body .l-page [class*="_status_tag"]:not([data-text=""]), body .l-page [class*="_marker"]:not([data-text=""]) {
-    background: #373c3e;
+body .l-page [class*="_status_tag"]:not([data-text]), body .l-page [class*="_marker"]:not([data-text]) {
     transition: 0.1s ease !important;
     font-size: 12px !important;
     line-height: 16px !important;
-    border: none;
-    border-radius: 8px;
-    box-shadow: none;
+    background: #373c3e;
 }
 
-body .l-page [class*="_marker"]:not([data-text=""]) {
+body .l-page [class*="_marker"]:not([data-text]) {
     padding: 0 5px;
 }
 
-body .l-page [class*="_status_tag"]:not([data-text=""]) {
+body .l-page [class*="_status_tag"]:not([data-text]) {
     padding: 2.5px 9px;
 }
 
@@ -350,6 +350,10 @@ body .l-page [class*="_status_tag"]:not([data-text=""]) {
 }
 
 .line .value [class*="status_tag"] {
+    padding: 0 !important;
+}
+
+.line .value [class*="status_tag"]:not([data-text]) {
     padding: 2px 9px !important;
 }
 
