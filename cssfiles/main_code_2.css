@@ -505,7 +505,7 @@ body[data-locale=ru] .b-abuse_marker:before {
 }
 
 .p-profiles header.head .misc span, .p-profiles header.head .misc a {
-    font-family: 'Comfortaa';
+    font-family: 'Comfortaa', sans-serif;
 }
 
 .buttons > div {
@@ -514,10 +514,16 @@ body[data-locale=ru] .b-abuse_marker:before {
 }
 
 [class*="_marker"].off {
-    width: 0px !important;
+    width: 0 !important;
 }
 
-body[data-locale=ru] .b-new_marker {
+body .l-page [class*="new_marker"] {
+    display: none;
+    width: 0 !important;
+}
+
+body .l-page [class*="new_marker"] {
+    display: none;
     width: 75px;
 }
 
@@ -568,8 +574,7 @@ body.p-achievements.p-profiles .b-ajax:before, body.p-achievements.p-profiles .b
     height: 31px;
     content: '\f1ce';
     color: rgba(var(--light-color), var(--hundred));
-    font-size: 30px !important;
-    font: normal normal normal 18px/1 FontAwesome;
+    font: normal normal normal 30px/1 FontAwesome !important;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -581,9 +586,8 @@ body.p-achievements.p-profiles .b-ajax:before, body.p-achievements.p-profiles .b
     content: '\f1ce';
     width: 16.5px;
     height: 16.7px;
-    font-size: 16px !important;
     color: rgba(var(--light-color), var(--hundred));
-    font: normal normal normal 18px/1 FontAwesome;
+    font: normal normal normal 16px/1 FontAwesome !important;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -655,10 +659,6 @@ body.p-achievements.p-profiles .b-ajax:before, body.p-achievements.p-profiles .b
     color: rgba(var(--dull-color), var(--hundred)) !important;
 }
 
-body[data-locale=ru] .b-new_marker.off:before {
-    color: rgba(var(--bright-color), var(--hundred));
-}
-
 .b-user.detailed .info .image-name .name, .b-user.detailed .history .line a .event {
     color: rgba(var(--white-color), var(--hundred));
 }
@@ -687,7 +687,6 @@ div.compatibility > a:before, .p-profiles .profile-head .c-info .c-lists-info .b
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    -moz-osx-font-smoothing-background: transparent;
 }
 
 div.compatibility > a:before {
@@ -1666,7 +1665,6 @@ body#profiles_show .b-catalog_entry, .c-column.user_rate .b-catalog_entry {
 .b-image img:hover {
     -webkit-filter: brightness(1);
     opacity: 1;
-    box-shadow: none !important;
     transform: scale(1.03);
     border-radius: 4px;
     box-shadow: 0 2px 7px 1px rgba(0, 0, 0, 0.6) !important;
@@ -1919,7 +1917,6 @@ body#people_show .c-works .b-catalog_entry .image-cutter {
 .b-comments .comments-collapser:after {
     content: '\f139';
     font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     position: relative;
@@ -2001,7 +1998,6 @@ body#people_show .c-works .b-catalog_entry .image-cutter {
 .p-profiles-show .lifetime .cuts .cut:after {
     content: '\f10c';
     font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     top: -2px;
@@ -2278,7 +2274,7 @@ body.p-achievements.p-profiles img {
     padding: 6px 10px 6px 10px;
     transition: 0.3s ease-out;
     border: none;
-    font-family: 'Comfortaa';
+    font-family: 'Comfortaa', sans-serif;
     box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2);
 }
 
@@ -2512,7 +2508,7 @@ body#profiles_edit .b-catalog_entry .cover .image-decor img {
 
 #profiles_show .achievements .cc-achievements .b-achievement {
     display: inline-flex;
-    left: 0rem;
+    left: 0;
     width: 31.2%;
     margin: 0;
     padding: 0;
@@ -3045,7 +3041,7 @@ body.p-profiles:not(.p-achievements):not(.p-user_history):not(.p-user_rates) .b-
     padding: 0;
     height: 42px;
     width: 42px;
-    font-family: 'FontAwesome';
+    font-family: 'FontAwesome', sans-serif;
     font-size: 19px;
     background: rgba(var(--small-rating), 0.7);
     color: rgba(var(--white-color), 0.7);
@@ -3169,7 +3165,7 @@ body.p-profiles:not(.p-achievements):not(.p-user_history):not(.p-user_rates) .b-
 }
 
 .b-radio input[type="radio"] + .radio-label:before {
-    font-family: 'FontAwesome';
+    font-family: 'FontAwesome', sans-serif;
     content: '\f1db';
     bordeR: none;
     margin: 0 14px 0 0;
@@ -3254,7 +3250,7 @@ body.p-profiles .subheadline .misc-links > a:before {
     transition: 0.2s all;
     right: unset;
     letter-spacing: unset;
-    font-family: 'Comfortaa';
+    font-family: 'Comfortaa', sans-serif;
     bottom: unset;
 }
 
@@ -3296,7 +3292,7 @@ body.p-profiles .mass-actions .action a:after, body.p-profiles .subheadline .mis
     color: rgba(var(--white-color), 0.7);
     height: 32px;
     width: 33px;
-    font-family: 'FontAwesome';
+    font-family: 'FontAwesome', sans-serif;
     padding: 0 0 2px 1px;
     justify-content: center;
     align-items: center;
@@ -3309,7 +3305,7 @@ body.p-profiles .mass-actions .action a:after, body.p-profiles .subheadline .mis
 
 body.p-profiles .mass-actions .action a:before, .headline .misc-links > a:before, .midheadline .misc-links > a:before, .subheadline .misc-links > a:before {
     content: '';
-    font-family: 'FontAwesome';
+    font-family: 'FontAwesome', sans-serif;
     position: absolute;
     bottom: 5px;
     right: 2px;
@@ -3597,7 +3593,7 @@ body.p-achievements.p-profiles .b-list_switchers > *:hover:after {
 
 .p-dashboards-show .v2 .my-list .label .misc-links a:before {
     content: '\f2b6';
-    font-family: 'FontAwesome';
+    font-family: 'FontAwesome', sans-serif;
     display: inline-flex;
     align-items: center;
     justify-content: center;
