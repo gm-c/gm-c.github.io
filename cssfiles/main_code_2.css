@@ -300,11 +300,11 @@ body * [class*="_status_tag"], body * [class*="_marker"] {
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-    margin: 1px !important;
+    margin: 2px !important;
     color: #e7e7e7 !important;
-    background: none;
-    box-shadow: none;
-    border: none;
+    background: unset!important;
+    box-shadow: none!important;
+    border: none!important;
     border-radius: 8px;
 }
 
@@ -312,7 +312,7 @@ body * [class*="_status_tag"]:not([data-text]), body * [class*="_marker"]:not([d
     transition: 0.1s ease !important;
     font-size: 12px !important;
     line-height: 16px !important;
-    background: #373c3e;
+    background: #373c3e !important;
 }
 
 body * [class*="_marker"]:not([data-text]) {
@@ -351,9 +351,9 @@ body * [class*="_status_tag"]:not([data-text]) {
     padding: 2px 9px !important;
 }
 
-body * .b-anime_status_tag.other::before, body * .b-anime_status_tag.other {
+body * .b-anime_status_tag.other:not([data-text]), body * .b-anime_status_tag.other:before {
     color: #d6d6d6;
-    background: linear-gradient(45deg, #feda754d, #fa7e1e4d, #d629764d, #962fbf4d, #4f5bd54d);
+    background: linear-gradient(45deg, #feda754d, #fa7e1e4d, #d629764d, #962fbf4d, #4f5bd54d)!important;
 }
 
 /* надпись коллекция на зеленом */
@@ -1053,7 +1053,7 @@ body.p-achievements.p-profiles .l-footer .links a {
 
 .l-footer:after {
     position: absolute;
-    left: 83px;
+    left: 96px;
     bottom: 0;
     color: rgba(var(--dark-color), 0.6);
     font: bold 10px 'Comfortaa';
@@ -3237,10 +3237,9 @@ body#messages_index .block.is-own-profile > .block {
 body .headline .misc-links, body .midheadline .misc-links, body .subheadline .misc-links {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-start;
     width: 100%;
     height: 100%;
-
 }
 
 body.p-profiles .subheadline .misc-links > a {
@@ -3333,41 +3332,38 @@ body.p-profiles .mass-actions .action a:before, .headline .misc-links > a:before
 body.p-profiles .mass-actions .action a:before {
     content: '\f00c\f00c';
 }
-
 .misc-links a[href*="/reviews"]:before {
     content: '\f005';
 }
-
 body.p-profiles .subheadline .misc-links > a:after {
     content: '\f2b6';
     font-size: 15px;
 }
-
 body.p-profiles .mass-actions .action a[href*='/read']:after {
     content: '\f2b6';
     font-size: 15px;
 }
-
 body.p-profiles .mass-actions .action a[href*='/dele']:after {
     content: '\f014';
     font-size: 18px;
 }
-
 .misc-links a[href*="/collections"]:after {
     content: '\f279';
     font-size: 15px;
-
 }
-
 .misc-links a[href*="/critiques"]:after {
     content: '\f27a';
     font-size: 15px;
 }
-
 .misc-links a[href*="/articles"]:after {
     content: '\f1ea';
     font-size: 15px;
 }
+a[href*="?order="]:after {
+    content: '\f0dc'!important;
+    font-size: 15px;
+}
+
 
 body.p-profiles .mass-actions .action a:hover:before {
     color: rgba(var(--light-color), 1);
@@ -3571,23 +3567,28 @@ body.p-achievements.p-profiles .b-list_switchers > *:hover:after {
     margin: 8px 0 0 10px;
     padding: 0 12px;
     border: 0 !important;
+    border-radius: 12px;
+}
+.p-dashboards-show .v2 .fc-user-sections .tag-link:hover {
+    background-color: rgba(var(--hover-buttoms-2), 1) !important;
+    color: white !important;
+    box-shadow: 0 2px 6px 2px rgb(0 0 0 / 20%) !important;
+    border: none !important;
 }
 
 .p-dashboards-show .v2 .fc-user-sections .tag-link.manga-tag {
     color: #d7b2e0;
     background: linear-gradient(45deg, rgb(95 33 81 / 80%) 0%, #824c76a8 50%, rgb(95 33 81 / 80%));
 }
-
 .p-dashboards-show .v2 .fc-user-sections .tag-link.anime-tag {
     color: #a7d8b5;
     background: linear-gradient(45deg, #2c6b41bd 0%, #427153a8 50%, #1e653dc9);
 }
-
 .p-dashboards-show .v2 .fc-user-sections .tag-link.ranobe-tag {
     color: #97c9e0;
     background: linear-gradient(45deg, rgb(32 63 93 / 80%) 0%, #3d6175bd 50%, rgb(32 64 93 / 80%));
-
 }
+
 
 .p-dashboards-show .v2 .my-list .label span {
     color: rgba(var(--white-color), 1);
@@ -3627,14 +3628,17 @@ body.p-achievements.p-profiles .b-list_switchers > *:hover:after {
 
 .p-dashboards-show .v2 .my-list .label .misc-links a[href*="/anime"]:before {
     content: '\f008';
+    background: rgba(159, 255, 189, 0.1);
 }
 
 .p-dashboards-show .v2 .my-list .label .misc-links a[href*="/manga"]:before {
     content: '\f02d';
+    background: rgba(255, 142, 191, 0.1);
 }
 
 .p-dashboards-show .v2 .my-list .label .misc-links a[href*="/history"]:before {
     content: '\f187';
+    background: rgb(132 193 220 / 10%);
 }
 
 .fc-user-sections .progress {
@@ -3733,6 +3737,73 @@ body.p-achievements.p-profiles .b-list_switchers > *:hover:after {
 
 .b-collection-topic > .inner .collection-row.is-spoilers .cover .image-cutter {
     border: none;
+}
+
+.pika-single {
+    background: rgba(var(--menu-back), 0.8);
+    border: none!important;
+    border-radius: 11px;
+    box-shadow: 0 2px 6px 2px rgb(0 0 0 / 20%);
+}
+.is-today .pika-button {
+    background: rgba(var(--hover-buttoms-2), 0.8);
+    color: rgba(var(--white-color), 1)
+}
+.is-disabled .pika-button {
+    color: rgba(var(--white-color), 1);
+    background: rgba(var(--light-color), 0.2);
+}
+.pika-button {
+    color: rgba(var(--white-color), 1);
+    background: rgba(var(--light-color), 0.2);
+    transition: 0.2s ease;
+}
+.pika-button:hover, .pika-row.pick-whole-week:hover .pika-button {
+    color: rgba(var(--white-color), 1);
+    background: rgba(var(--hover-color), 1);
+}
+.pika-next, .pika-prev {
+    background: none !important;
+}
+.pika-next:after, .pika-prev:after {
+    content: '';
+    font-family: 'FontAwesome';
+    color: rgba(var(--bright-color), 1)!important;
+    z-index: 8;
+    text-rendering: auto;
+    font: normal normal normal 18px/1 FontAwesome;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.pika-next:after {
+    content: '\f054';
+}
+.pika-prev:after {
+    content: '\f053';
+}
+.pika-label {
+    background: none;
+    color: rgba(var(--bright-color), 1);
+    border-radius: 4px;
+}
+.pika-table abbr {
+    border: none;
+    text-decoration: none;
+    color: rgba(var(--light-color), 1);
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 8px;
+    text-transform: uppercase;
+    background: rgba(var(--hover-buttoms-2), 0.2);
+    padding: 4px 4px 2px;
+    display: inline-flex;
+    height: 15px;
+    align-items: center;
 }
 
 

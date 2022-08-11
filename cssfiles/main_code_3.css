@@ -1671,17 +1671,16 @@ header.head .notice {
     position: relative;
 }
 .b-list li:before {
-    height: 100%;
+    content: "\f111";
     display: inline-flex;
     align-content: center;
-    align-items: center;
-    margin: 0 0px 0 -13px !important;
-
-    transition: 0s ease, -webkit-0s ease, transform 0.2s, ease color.2s;
+    align-items: flex-start;
+    height: 100%;
+    padding-top: 2px;
     font: normal normal normal 7px/1 FontAwesome;
-    content: "\f111";
-    background: none;
     color: rgba(var(--bright-color), 1);
+    background: none;
+    transition: 0s ease, -webkit-0s ease, transform 0.2s, ease color.2s;
 }
 
 .b-list li {
@@ -2873,26 +2872,6 @@ body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown > span .nickname {
     line-height: 13px;
 }
 
-.b-offtopic_marker,
-.b-summary_marker,
-.b-new_marker,
-.b-anime_status_tag.news,
-.b-anime_status_tag.anons,
-.b-anime_status_tag.ongoing,
-.b-anime_status_tag.released,
-.b-anime_status_tag.review,
-.b-anime_status_tag.episode,
-.b-anime_status_tag.collection,
-.b-abuse_marker,
-.b-broadcast_marker,
-.b-anime_status_tag.offtopic,
-.b-anime_status_tag.news,
-.b-anime_status_tag.broadcast,
-.b-anime_status_tag.ignored {
-    background-color: unset;
-    border: unset;
-}
-
 .b-db_entry-variant-list_item {
     border-top: unset;
 }
@@ -3042,6 +3021,7 @@ body.p-achievements.p-profiles .b-anime_status_tag.episode,
     right: 1rem;
     width: 50px;
     height: 50px;
+    background: none;
 }
 .p-clubs-images .b-image img,
 .p-clubs-images .b-image:not(.no-zoom),
