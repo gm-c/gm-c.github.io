@@ -2460,7 +2460,44 @@ body.p-achievements.p-profiles .l-top_menu-v2 {
       width: 200%;
    }
 }
+:root .use-tabs {
+   --font-icons-family: "Material Icons";
+   --font-icons-size-m: 24px;
+   --font-icons-size-s: 18px;
+}
+@font-face {
+   font-family: "Material Icons";
+   font-style: normal;
+   font-weight: 400;
+   src: url("https://fonts.gstatic.com/s/materialicons/v118/flUhRq6tzZclQEJ-Vdg-IuiaDsNZ.ttf")
+         format("truetype"),
+      url("https://fonts.gstatic.com/s/materialicons/v118/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2")
+         format("woff2");
+}
 
+.use-tabs.--On [data-icon]::before {
+   content: attr(data-icon);
+   display: inline-flex;
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   margin-left: -30px;
+   align-items: center;
+}
+
+.use-tabs [data-icon]::before {
+   content: attr(data-icon);
+   display: inline-block;
+   vertical-align: top;
+   flex-shrink: 0;
+   margin-right: 8px;
+   margin-left: -4px;
+   font-family: var(--font-icons-family);
+   font-size: var(--font-icons-size-m);
+   font-style: normal;
+   font-weight: normal;
+   overflow: hidden;
+}
 :root {
   --is-theme-dark: 0;
   --l-theme-default: 55%;
@@ -2801,7 +2838,7 @@ body.p-achievements.p-profiles .l-top_menu-v2 {
 }
 .custom-panel > [data-dynamic] {
     display: inline-flex;
-    padding: 4px 16px;
+    padding: 4.51px 18px;
     margin: 4px;
     border: 0px solid;
     border-radius: 10px;
@@ -2816,6 +2853,9 @@ body.p-achievements.p-profiles .l-top_menu-v2 {
     flex-grow: 1;
     justify-content: center;
     box-shadow: 0 2px 6px 2px #00000026;
+}
+.use-tabs.--On .custom-panel [data-icon]::before {
+   position: relative;
 }
 .custom-panel > [data-dynamic]:hover,
 .custom-panel > [data-dynamic]:active {
