@@ -3060,17 +3060,6 @@ body.p-achievements.p-profiles .l-top_menu-v2 {
       flex-grow: 1.5;
       font-weight: bold;
    }
-   .use-tabs.--Fat > [data-dynamic] {
-      flex-grow: 1;
-      flex-shrink: 0;
-      padding: 6.35px 16px;
-      margin: 0 2px 8px;
-      text-align: center;
-      color: rgba(var(--dark-color), 0.9);
-      font-weight: normal;
-      line-height: 1.45;
-      transition: color 0.15s, flex-grow 0.05s, font-size 0s;
-   }
    .use-tabs.--Fat [data-icon]::before {
       display: inline-flex;
       position: relative;
