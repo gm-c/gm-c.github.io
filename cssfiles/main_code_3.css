@@ -2945,7 +2945,7 @@ body.p-achievements.p-profiles .l-top_menu-v2 {
   left: 50%;
   width: 72%;
   padding-top: 72%;
-  background: inherit;
+  background: #b1cdde1a;
   border-radius: 50%;
   opacity: 0;
   transform: translate3d(-50%, -50%, 0);
