@@ -2691,12 +2691,10 @@ body.p-achievements.p-profiles .l-top_menu-v2 {
   justify-content: center;
 }
 
-
 /* Stretch */
 .use-tabs.--stretched > [data-dynamic] {
   flex-grow: 1;
 }
-
 .use-tabs.--On.--centered {
    display: flex;
    padding: 0;
@@ -2758,7 +2756,6 @@ body.p-achievements.p-profiles .l-top_menu-v2 {
    flex-grow: 1.5;
    font-weight: bold;
 }
-
 .use-tabs.--On.--ripple > [data-dynamic]::after {
    content: "";
    position: absolute;
@@ -2799,7 +2796,6 @@ body.p-achievements.p-profiles .l-top_menu-v2 {
    }
 }
 
-
 .custom-panel {
   position: relative;
   display: flex;
@@ -2808,7 +2804,6 @@ body.p-achievements.p-profiles .l-top_menu-v2 {
   justify-content: center;
 
   --c-border: var(--color-border, #444444);
-
 }
 .custom-panel.--dark {
   --is-theme-dark: 1;
@@ -2888,7 +2883,6 @@ body.p-achievements.p-profiles .l-top_menu-v2 {
 .custom-panel > .active.--green {
   --c-tab: 120deg 100%;
 }
-
 
 /* Vertical */
 @media (min-width: 960px) {
