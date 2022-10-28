@@ -3045,12 +3045,15 @@ body.p-achievements.p-profiles .l-top_menu-v2 {
 
 @media screen and (max-width: 960px) {
    .use-tabs.--Fat > [data-dynamic] {
-      margin: 0 2px 8px;
-      padding: 5px 16px;
-      line-height: 24px;
-      border: none;
-      box-shadow: 0 2px 6px 2px #00000033;
-      background: rgba(var(--block-color), 0.6);
+    margin: 0 2px 8px;
+    padding: 5px 16px;
+    line-height: 24px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    text-align: center;
+    color: rgba(var(--dark-color), 0.9);
+    font-weight: normal;
+    transition: color 0.15s, flex-grow 0.05s, font-size 0s;
    }
    .use-tabs.--Fat > [data-dynamic].active {
       background: rgba(var(--block-color), 0.8);
