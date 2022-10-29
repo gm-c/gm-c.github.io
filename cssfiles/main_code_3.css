@@ -2657,11 +2657,11 @@ body.p-achievements.p-profiles .l-top_menu-v2 {
   transform: translate3d(-50%, -50%, 0);
   pointer-events: none;
 }
-.use-tabs.--ripple > [data-dynamic]:not(.active):hover::after {
-  animation: 1s switch-focus--vertical ease infinite;
+.use-tabs.--Fat.--ripple > [data-dynamic].active::after {
+    animation: switch-tap--vertical 0s cubic-bezier(0.55, 0.06, 0.68, 0.19);
 }
-.use-tabs.--ripple > [data-dynamic].active::after {
-  animation: switch-tap--vertical 0.24s cubic-bezier(0.55, 0.06, 0.68, 0.19);
+.use-tabs.--Fat.--ripple > [data-dynamic].active:hover::after {
+    animation: switch-tap--vertical 0.24s cubic-bezier(0.55, 0.06, 0.68, 0.19);
 }
 
 
@@ -2771,7 +2771,10 @@ body.p-achievements.p-profiles .l-top_menu-v2 {
 }
 
 .use-tabs.--On.--ripple > [data-dynamic].active::after {
-   animation: ripple-unbound 0.25s cubic-bezier(0.4, 0, 1, 1);
+   animation: switch-tap--vertical 0s cubic-bezier(0.55, 0.06, 0.68, 0.19);  
+}
+.use-tabs.--On.--ripple > [data-dynamic].active:hover::after {
+   animation: switch-tap--vertical 0.25s cubic-bezier(0.55, 0.06, 0.68, 0.19);  
 }
 
 @media screen and (max-width: 960px) {
