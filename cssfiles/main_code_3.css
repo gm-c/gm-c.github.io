@@ -2726,7 +2726,7 @@ body.p-achievements.p-profiles .l-top_menu-v2 {
     color: rgba(var(--dark-color), 0.9);
     font-weight: normal;
     line-height: 1.45;
-    transition: color 0.15s, flex-grow 0.05s, font-size 0s;
+    transition: color 0.15s, flex-grow 0.15s, font-size 0s;
 }
 .use-tabs.--On.--centered::before {
     content: "";
