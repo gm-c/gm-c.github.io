@@ -2664,7 +2664,12 @@ body.p-achievements.p-profiles .l-top_menu-v2 {
 .use-tabs.--ripple > [data-dynamic]:not(.active):hover::after {
     animation: 1s switch-focus--vertical ease infinite;
 }
-
+.use-tabs.--ripple > [data-dynamic].active:hover::after {
+    animation: switch-tap--vertical 0.25s cubic-bezier(0.55, 0.06, 0.68, 0.19);
+}
+.use-tabs.--ripple > [data-dynamic].active::after {
+    animation: switch-tap--vertical 0s cubic-bezier(0.55, 0.06, 0.68, 0.19);
+}
 /* Tabline */
 .use-tabs.--tabline {
     justify-content: flex-start;
