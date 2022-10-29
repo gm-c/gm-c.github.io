@@ -2726,7 +2726,7 @@ body.p-achievements.p-profiles .l-top_menu-v2 {
     color: rgba(var(--dark-color), 0.9);
     font-weight: normal;
     line-height: 1.45;
-    transition: color 0.15s, flex-grow 0.15s, font-size 0s;
+    transition: color 0.24s, flex-grow 0.24s, font-size 0s;
 }
 .use-tabs.--On.--centered::before {
     content: "";
@@ -2867,7 +2867,7 @@ body.p-achievements.p-profiles .l-top_menu-v2 {
     line-height: 24px;
     text-align: center;
     cursor: pointer;
-    transition: color 0.15s, flex-grow 0.05s, font-size 0s;
+    transition: color 0.24s, flex-grow 0.24s, font-size 0s;
     user-select: none;
     flex-grow: 1;
     justify-content: center;
@@ -3063,7 +3063,7 @@ body.p-achievements.p-profiles .l-top_menu-v2 {
         text-align: center;
         color: rgba(var(--dark-color), 0.9);
         font-weight: normal;
-        transition: color 0.15s, flex-grow 0.05s, font-size 0s;
+        transition: color 0.24s, flex-grow 0.24s, font-size 0s;
     }
     .use-tabs.--Fat > [data-dynamic].active {
         background: rgba(var(--block-color), 0.8);
