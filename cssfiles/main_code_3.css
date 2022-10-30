@@ -3011,6 +3011,7 @@ body.p-achievements.p-profiles .l-top_menu-v2 {
     box-shadow: 0 2px 6px 2px #00000033;
     background: rgba(var(--block-color), 0.4);
     border-radius: 100px; text-align: center;
+    color: rgba(var(--dark-color), 0.9);
 }
 @media (min-width: 960px) {
     .use-tabs.--Fat.--vertical {
