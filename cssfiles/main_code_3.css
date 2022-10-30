@@ -3009,7 +3009,7 @@ body.p-achievements.p-profiles .l-top_menu-v2 {
 }
 .use-tabs.--Fat > [data-dynamic] {
     box-shadow: 0 2px 6px 2px #00000033;
-    background: rgba(var(--block-color), 0.6);
+    background: rgba(var(--block-color), 0.4);
     border-radius: 100px; text-align: center;
 }
 @media (min-width: 960px) {
@@ -3054,6 +3054,7 @@ body.p-achievements.p-profiles .l-top_menu-v2 {
         text-align: center;
         color: rgba(var(--dark-color), 0.9);
         font-weight: normal;
+        border: none;
         transition: color 0.24s, flex-grow 0.24s, font-size 0s;
     }
     .use-tabs.--Fat [data-icon]::before {
