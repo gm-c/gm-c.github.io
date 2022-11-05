@@ -477,6 +477,7 @@
     padding: 2px;
     border: 2px solid rgba(var(--block-color), 0.6);
   }
+  
   #profiles_show .achievements .c-column:nth-child(1) .cc-achievements .b-achievement,
   #profiles_show .achievements .c-column:nth-child(2) .cc-achievements .b-achievement
     width: 31.8%;
@@ -488,6 +489,7 @@
     left: 0.3rem;
     border-radius: 20px;
   }
+
   #profiles_show .cc-2 > .c-column {
     width: 50%;
     height: 100%;
