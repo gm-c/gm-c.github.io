@@ -3357,6 +3357,7 @@
    #profiles_show .block.achievements {
       display: inline-block;
       margin-bottom: -2%!important;
+      width: 100%; 
    }
    #profiles_show .b-achievement .c-image .inner {
       transform: scale(1.065);
