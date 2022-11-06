@@ -474,14 +474,6 @@
         display: none;
     }
 
-    #profiles_show .achievements .cc-2 > .c-column:first-child {
-        width: 24%;
-    }
-
-    #profiles_show .achievements .cc-2 > .c-column:nth-child(2) {
-        width: 24%;
-    }
-
     #profiles_show .achievements .cc-2 > .c-column:nth-child(3) {
         width: 50%;
         margin-left: 1%;
