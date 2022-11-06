@@ -1205,6 +1205,7 @@
 
     body#profiles_show .about.block {
         margin-top: 20px;
+        clear: left;
     }
 
     .p-profiles-show .cc-favourites .c-column:nth-child(n + 7) {
