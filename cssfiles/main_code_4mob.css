@@ -1255,7 +1255,7 @@
 
     #profiles_show .achievements .cc-2 > .c-column:nth-child(3) {
         width: 100%;
-        margin: 0;
+        margin: 0 0 7px;
     }
 
     #profiles_show .achievements .c-column:nth-child(1) .cc-achievements .b-achievement,
