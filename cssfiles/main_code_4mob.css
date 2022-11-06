@@ -3286,7 +3286,7 @@
    }
 }
 
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 1024px) {
    #profiles_show .achievements .cc-2 > .c-column:nth-child(3),
    #profiles_show .achievements .cc-2 > .c-column:nth-child(4) {
       width: 49.5%;
