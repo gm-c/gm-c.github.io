@@ -1246,14 +1246,14 @@
         width: 110px;
     }
 
-    #profiles_show .achievements .cc-3 > .c-column:nth-child(1),
-    #profiles_show .achievements .cc-3 > .c-column:nth-child(2) {
+    #profiles_show .achievements .cc-2 > .c-column:nth-child(1),
+    #profiles_show .achievements .cc-2 > .c-column:nth-child(2) {
         width: 49%;
         margin-bottom: 10px;
         clear: none;
     }
 
-    #profiles_show .achievements .cc-3 > .c-column:nth-child(3) {
+    #profiles_show .achievements .cc-2 > .c-column:nth-child(3) {
         width: 100%;
         margin: 0;
     }
@@ -2335,8 +2335,8 @@
 }
 
 @media screen and (max-width: 480px) and (orientation: portrait) {
-    #profiles_show .achievements .cc-3 > .c-column:nth-child(1),
-    #profiles_show .achievements .cc-3 > .c-column:nth-child(2) {
+    #profiles_show .achievements .cc-2 > .c-column:nth-child(1),
+    #profiles_show .achievements .cc-2 > .c-column:nth-child(2) {
         width: 100%;
     }
 
