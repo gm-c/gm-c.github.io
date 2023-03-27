@@ -1647,7 +1647,7 @@ header.head a.edit,
     margin-top: 0;
 }
 
-.p-user_history-index .history-page .history-interval p .destroy,
+.b-user_history-line .destroy,
 .buttons .item-reply,
 .buttons .item-moderation,
 .buttons .item-edit,
@@ -2051,12 +2051,12 @@ time {
     color: rgba(var(--hover-color), 1);
 }
 
-.p-user_history-index .history-page .history-interval p a:hover {
+.b-user_history-line a:hover {
     color: rgba(var(--hover-color), 1) !important;
     font-weight: bold;
 }
 
-.p-user_history-index .history-page .history-interval p a {
+.b-user_history-line a {
     color: rgba(var(--white-color), 1);
     font-weight: bold;
 }
@@ -2066,7 +2066,7 @@ body.localized_names-ru .name-ru:hover {
     text-decoration: none !important;
 }
 
-.p-user_history-index .history-page .history-interval p .date {
+.b-user_history-line .date {
     color: rgba(var(--dark-color), 1) !important;
 }
 
