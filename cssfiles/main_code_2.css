@@ -1,6 +1,6 @@
 /*2104*/
 .l-footer:before {
-    content: 'E-design Experimental';
+    content: 'E-design v.*';
 }
 .b-club .name-logo .name {
     transition: 1s ease;
@@ -2590,7 +2590,7 @@ body#profiles_edit .b-catalog_entry .cover .image-decor img {
 @media screen and (max-width: 1200px) {
    .p-profiles-show .achievements .cc-authors .b-achievement {
       width: 17.67%;
-      margin: 15px 0.7% 0px 0.7%;
+      margin: 15px 0.7% 0 0.7%;
    }
 }
 @media screen and (min-width: 960px) and (max-width: 1200px) {
@@ -2618,7 +2618,7 @@ body#profiles_edit .b-catalog_entry .cover .image-decor img {
    }
    .p-profiles-show .achievements .cc-authors .b-achievement {
       width: 30%;
-      margin: 10px 0.6% 0px !important;
+      margin: 10px 0.6% 0 !important;
    }
 }
 @media screen and (max-width: 480px) {
