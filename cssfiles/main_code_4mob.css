@@ -2973,6 +2973,7 @@
 
     .p-profiles .profile-head .c-history > * {
         display: inline-flex !important;
+        flex-wrap: wrap;
     }
 
     .c-history .subheadline {
