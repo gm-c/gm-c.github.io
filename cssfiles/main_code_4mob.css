@@ -2967,15 +2967,14 @@
         width: calc(100% - 64px);
         margin-top: 0;
     }
-
-    .p-profiles .profile-head .c-history .entry {
-    }
-
+    
     .p-profiles .profile-head .c-history > * {
         display: inline-flex !important;
         flex-wrap: wrap;
     }
-
+    .c-history > div {
+        width: 100%;
+    }
     .c-history .subheadline {
         background: none !important;
         box-shadow: none !important;
