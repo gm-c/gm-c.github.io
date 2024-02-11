@@ -791,7 +791,7 @@ input:checked + .md-list + .md-list_hidden {
   height: auto;
   padding: 1em;
   margin: 1em;
-  background: rgb(193 116 0);
+  background: #c1740057;
   border: 0;
   border-radius: 50%;
   box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
@@ -802,6 +802,7 @@ input:checked + .md-list + .md-list_hidden {
   font: inherit;
   transition: .24s ease-in-out;
   z-index: 2;
+  backdrop-filter: blur(3px);	
 }
 .md-fab:hover,
 .md-fab:focus {
@@ -1345,6 +1346,7 @@ img {
     transform: translate3d(-110%,0,0);
     transition: .24s ease-in-out;
     z-index: 3;
+    text-align: center;	  
   }
   #topbar_menu:checked ~ .shade {
     visibility: visible;
